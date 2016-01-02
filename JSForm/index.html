@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head></head>
+	<head>
+		<!-- CSS styling -->
+		<style>
+			input{
+				border:1px solid black;
+			}
+			input:focus{
+				background-color: #E6E6E6;
+			}
+			fieldset{
+				margin-bottom: 4%;
+			}
+		</style>
+	</head>
 	<body>
 		<div class="container">
 			<h1>JavaScript Homework</h1>
@@ -27,5 +40,18 @@
 				<input type = "submit" value = "Verify"/>
 			</form>
 		</div>
+		
+		<! --- JS Code --->
+		<script>
+			function billingFunction() {
+				if (!document.getElementById('same').checked){
+					document.getElementById('billingName').value = '';
+					document.getElementById('billingZip').value = '';
+				} else {
+					document.getElementById('billingName').value = document.getElementById('shippingName').value;
+					document.getElementById('billingZip').value = document.getElementById('shippingZip').value;
+				}
+			}
+		</script>
 	</body>
 </html>

@@ -3,42 +3,76 @@
 	<head>
 		<!-- CSS styling -->
 		<style>
+			body {
+				width: 100%;
+				background-color: #006699;
+				font-family: Helvetica, Arial, sans-serif;
+			}
+			.container {
+				width:960px;
+				height: 100%;
+				background-color: #ffffff;
+				color: #006699;
+				text-align: center;
+				margin: 0 auto; <!-- centers the container -->
+			}
+			.content {
+				padding: 30px;
+				display: block;
+			}
+			form {
+				text-align: left;
+			}
+			.first input, .second input {
+				width: 500px;
+				margin-bottom: 4%;
+			}
+			#same {
+				margin-bottom: 4%;
+			}
 			input{
-				border:1px solid black;
+				border:1px solid #006699;
+			}
+			input[name="Name"] {
+				margin-top: 4%;
 			}
 			input:focus{
 				background-color: #E6E6E6;
 			}
 			fieldset{
 				margin-bottom: 4%;
+				border:1px solid #006699;
 			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
-			<h1>JavaScript Homework</h1>
+		<div class="content">
+			<h1>JS Form</h1>
 			<p>For this assignment, I had to add the JavaScript code needed to enable auto-complete on this form.  Whenever the checkbox is checked, the code should automatically copy the values from Shipping Name and Shipping Zip into the Billing Name and Billing Zip.  If the checkbox is unchecked, the Billing Name and Billing Zip should go blank.</p>
 
 			<form>
-				<fieldset>
+				<fieldset class="first">
 					<legend>Shipping Information</legend>
-					<label for ="shippingName">Name:</label>
-					<input type = "text" name = "Name" id = "shippingName" required><br/>
-					<label for = "shippingzip">Zip code:</label>
-					<input type = "text" name = "Zip" id = "shippingZip" pattern = [0-9]{5} required><br/>
+					<label for="shippingName">Name:</label>
+					<input type="text" name="Name" id="shippingName" required><br/>
+					<label for="shippingzip">Zip code:</label>
+					<input type="text" name="Zip" id="shippingZip" pattern=[0-9]{5} required><br/>
 				</fieldset>
-			
-				<input type="checkbox" id="same" name="same" onchange= "billingFunction()"/>
-				<label for = "same">Is the Billing Information the Same?</label>
 				
-				<fieldset> 
+				<label for="same">Is the Billing Information the Same?</label>
+				<input type="checkbox" id="same" name="same" onchange="billingFunction()"/>
+				
+				<fieldset class="second"> 
 					<legend>Billing Information</legend>
-					<label for ="billingName">Name:</label>
-					<input type = "text" name = "Name" id = "billingName" required><br/>
-					<input type = "text" name = "Zip" id = "billingZip" pattern = [0-9]{5} required><br/>
+					<label for="billingName">Name:</label>
+					<input type="text" name="Name" id="billingName" required><br/>
+					<label for="billingZip">Zip code:</label>
+					<input type="text" name="Zip" id="billingZip" pattern=[0-9]{5} required><br/>
 				</fieldset>
-				<input type = "submit" value = "Verify"/>
+				<input type="submit" value="Verify"/>
 			</form>
+		</div>
 		</div>
 		
 		<! --- JS Code --->

@@ -7,3 +7,5 @@ I completed University of Michigan's course on JavaScript Interactivity. For the
 
 ### Specs
 HTML5, CSS, and JavaScript code all in same [index.html file](http://github.com/Wilcott321/100DaysOfCode/JSForm/index.html). For me, this was easier to minify code and files. In an ideal project setup, files would be separate, but I was able to complete the form in less than 65 lines to keep it short while fulfilling assignment requirements.
+
+![JSForm Validation](http://github.com/Wilcott321/100DaysOfCode/JSForm/img/jsform2.png?raw=true "JSForm Screenshot")

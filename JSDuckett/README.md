@@ -1,0 +1,2 @@
+##JS Ducket Project
+I'm working through Jon Duckett's book JavaScript & JQuery to get better at writing vanilla JS without the need for frameworks. The individual folders will have an example project from the text.  I will modify and customize much of the examples to add my own touches. All images are credited to Jon Duckett.  Go to [Javascript Book](http://www.javascriptbook.com) to read the book online.

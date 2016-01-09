@@ -1,6 +1,6 @@
 // Variables and Welcome message
 var greeting = "Hello";
-var name = 'Marissa'; //create a prompt for the user name?
+var name = ' Marissa'; //create a prompt for the user name?
 var message =', please check your order:';
 
 var welcome = greeting + name + message;

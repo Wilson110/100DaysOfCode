@@ -2,7 +2,7 @@ html {
     height: 100%;}
 
 body {
-    background: url('images/hobart.jpg') no-repeat center center fixed;
+    background: url('http://s26.postimg.org/ub3f01yw9/hobart.jpg') no-repeat center center fixed;
     background-color: #b6a996;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -30,7 +30,7 @@ body {
 }
 
 h1, h2 {
-    background: url('images/elderflower-logo.png') no-repeat bottom center;
+    background: url('http://s26.postimg.org/3skrrc06h/elderflower_logo.png') no-repeat bottom center;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -47,7 +47,7 @@ h2 {
     width: 286px;
     height: 18px;
     margin: 0 auto 20px auto;
-    background: url('images/custom-sign.png') no-repeat center center;}
+    background: url('http://s26.postimg.org/4gtma9yw9/custom_sign.png') no-repeat center center;}
 
 #title {
     font-size: 120%;
@@ -83,7 +83,7 @@ a {
     text-decoration:none;}
 
 .true, .false {
-    background: url("images/tick-cross.png");
+    background: url("http://s26.postimg.org/dsfo78bfp/tick_cross.png");
     display: block;
     float:right;
     height: 25px;

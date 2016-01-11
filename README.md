@@ -13,7 +13,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 ## My Progress
 |  [day 0](http://github.com/Wilcott321/100DaysOfCode)  |  [day 1](http://github.com/Wilcott321/100DaysOfCode/tree/master/JSForm)  |  [day 2](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio)  |  [day 3](http://github.com/Wilcott321/100DaysOfCode/tree/master/JSTesting)  |  [day 4](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/index.html)  |  [day 5](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/index.html) |
   
-| [day 6](http://github.com/Wilcott321/100DaysOfCode/tree/master/JSDuckett) | day 7  | day 8  | day 9  | day 10 | day 11 |
+| [day 6](http://github.com/Wilcott321/100DaysOfCode/tree/master/JSDuckett) | [day 7](http://www.github.com/Wilcott321/100DaysOfCode/tree/master/JSDuckett)  | day 8  | day 9  | day 10 | day 11 |
 
 | day 12 | day 13 | day 14 | day 15 | day 16 | day 17 |
 

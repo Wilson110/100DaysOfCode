@@ -8,16 +8,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
+		
+		<!--- Bootstrap CDN --->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		
+		<!--- Font Awesome CDN ---->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		
 		<style>
 			.navbar {margin-bottom:0px;}
 			a {padding:30px 30px 14px; font-size:18px;}
+			.carousel {position:relative; padding-top: 4px; padding-bottom: 28px;}
+			.carousel-indicators {position:absolute; bottom: 25px; margin-bottom: 0;}
+			.page-contents {padding-top: 20px; padding-bottom: 40px;} 
+			ul.social {margin: 0; padding: 0; width: 100%; text-align: center;}
+			ul.social li {display: inline-block;}
+			ul.social li a {display: inline-block; color: #bfbfbf; margin: 0 3px 3px 0;}
+			ul.social li a:hover {text-decoration: none; color: #fff; background-color:#bfbfbf;}
+			footer[role="contentinfo"] {padding-top: 24px; padding-bottom: 36px; text-align: center;}
 		</style>
 		
-		<!-- Fonts -->
-		<link rel=
 		
 		<!-- Modernizr -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -58,7 +68,7 @@
 							</li>
 							<li>
 								<a href="#">
-									<span class="glyphicon glyphicon-user"></span> Team
+									<span class="icon fa fa-group"></span> Team
 								</a>
 							</li>
 							<li>
@@ -108,27 +118,34 @@
 			</a>
 		</div><!-- /end of homepage feature carousel -->
 		
-		<div class="container">
+		<div class="page-contents container">
 			<div class="row">
 				<div class="col-sm-4 col-md-4">
 					<h2>Welcome!</h2>
 					<p>Suspendisse potenti. Maecenas commodo interdum purus at commodo. Nullam tempus posuere dolor, ac consectetur nulla mollis in. Integer at eros in tellus gravida mollis at non justo. In hac habitasse platea dictumst. Ut interdum lorem ac porta gravida.</p>
-					<p><a class="btn btn-primary pull-right" href="#">See our portfolio</a></p>
+					<p><a class="btn btn-primary pull-right" href="#">See our portfolio <span class="icon fa fa-arrow-circle-right"></span></a></p>
 				</div>
 				<div class="col-sm-4 col-md-4">
 					<h2>Recent Updates</h2>
 					<p>Suspendisse potenti. Maecenas commodo interdum purus at commodo. Nullam tempus posuere dolor, ac consectetur nulla mollis in. Integer at eros in tellus gravida mollis at non justo. In hac habitasse platea dictumst. Ut interdum lorem ac porta gravida.</p>
-					<p><a class="btn btn-primary pull-right" href="#">See what's new1</a></p>
+					<p><a class="btn btn-primary pull-right" href="#">See what's new! <span class="icon fa fa-arrow-circle-right"></span></a></p>
 				</div>
 				<div class="col-sm-4 col-md-4">
 					<h2>Our Team</h2>
 					<p>Suspendisse potenti. Maecenas commodo interdum purus at commodo. Nullam tempus posuere dolor, ac consectetur nulla mollis in. Integer at eros in tellus gravida mollis at non justo. In hac habitasse platea dictumst. Ut interdum lorem ac porta gravida.</p>
-					<p><a class="btn btn-primary pull-right" href="#">Meet the team!</a></p>
+					<p><a class="btn btn-primary pull-right" href="#">Meet the team! <span class="icon fa fa-arrow-circle-right"></span></a></p>
 				</div>
 			</div><!-- /end of row -->
 		</div><!-- /end of container -->
 		
 		<footer role="contentinfo">
+			<ul class="social">
+				<li><a href="#" title="Twitter Profile"><span class="icon fa fa-twitter fa-2x"></span></a></li>
+				<li><a href="#" title="Facebook Page"><span class="icon fa fa-facebook fa-2x"></span></a></li>
+				<li><a href="#" title="LinkedIn Profile"><span class="icon fa fa-linkedin fa-2x"></span></a></li>
+				<li><a href="#" title="Google+ Profile"><span class="icon fa fa-google-plus fa-2x"></span></a></li>
+				<li><a href="#" title="GitHub Profile"><span class="icon fa fa-github-alt fa-2x"></span></a></li>
+			</ul>
 			<p><small>Copyright &copy; Company Name</small></p>
 		</footer>
 		

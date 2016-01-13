@@ -8,6 +8,9 @@ a {padding:30px 30px 14px; font-size:18px;}
 .carousel-indicators {position:absolute; margin-bottom: 0;}
 .page-contents {padding-top: 20px; padding-bottom: 40px;} 
 
+/* ROW CONTENT*/
+.row-content {margin-top: 40px;}
+
 /* FOOTER */
 footer[role="contentinfo"] {padding-top: 24px; padding-bottom: 36px; text-align: center;}
 

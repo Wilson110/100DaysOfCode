@@ -1,0 +1,19 @@
+/* NAVBAR SETTINGS */
+.navbar {margin-bottom:0px;}
+			
+a {padding:30px 30px 14px; font-size:18px;}
+
+/* CAROUSEL SETTINGS */
+.carousel {margin-top:0px; position: absolute; top: -20px; padding-bottom: 20px;}
+.carousel-indicators {position:absolute; margin-bottom: 0;}
+.page-contents {padding-top: 20px; padding-bottom: 40px;} 
+
+/* FOOTER */
+footer[role="contentinfo"] {padding-top: 24px; padding-bottom: 36px; text-align: center;}
+
+/* SOCIAL MEDIA LINKS */
+ul.social {margin: 0; padding: 0; width: 100%; text-align: center;}
+ul.social li {display: inline-block;}
+ul.social li a {display: inline-block; color: #bfbfbf; margin: 0 3px 3px 0;}
+ul.social li a:hover {text-decoration: none; color: #fff; background-color:#bfbfbf;}
+		

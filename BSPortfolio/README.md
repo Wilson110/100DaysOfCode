@@ -13,5 +13,4 @@ I'm reading, studying, and learning from "Bootstrap Site Blueprints" by David Co
 ### Specs
 While this makes for a great starter site, I plan on customizing the color scheme, images, and adding additional sections for developer info like most portfolio sites
 
-### Credits
-Images provided by David Cochran
+

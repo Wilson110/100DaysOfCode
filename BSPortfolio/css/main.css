@@ -2,7 +2,7 @@
 #main-nav {text-transform: uppercase; background-color: #0099CC; color: #ffffff; border-color: #0099cc; -webkit-transition:all .35s; -moz-transition:all .35s; transition:all .35s;}
 .navbar-default .navbar-header .navbar-brand {text-transform: uppercase; font-weight: 700; color: #ffffff;}			
 .navbar-default .navbar-collapse .navbar-nav li a {color: #fff;}
-.navbar-default, .navbar-collapse .navbar-nav .active a {background-color: #0099cc; border: solid 2px #ffffff;}
+.navbar-default, .navbar-collapse .navbar-nav .active a {background-color: #0099cc; text-transform: uppercase; border: solid 2px #ffffff;}
 
 /* BODY SETTINGS */
 #page-top {background-color: #0099CC;}
@@ -13,11 +13,10 @@ header .header-content {position:relative; width: 100%; padding: 200px 15px; tex
 header .header-content .inner-heading h1 {margin-top: 0; margin-bottom: 0; text-transform: uppercase; font-weight: 700; color: #fff;}
 header .header-content .inner-heading hr {margin: 30px auto; max-width: 50px; border-width: 3px;}
 header .header-content .inner-heading p {margin-bottom: 50px; font-size: 16px; font-weight: 300; color: #fff;}
-/* CAROUSEL SETTINGS */
-.carousel {margin-top:0px; position: absolute; top: -20px; padding-bottom: 20px;}
-.carousel-indicators {position:absolute; margin-bottom: 0;}
-.page-contents {padding-top: 20px; padding-bottom: 40px;} 
 
+/* BUTTONS */
+.btn-services {background-color: #0099CC; color: #fff;}
+.btn-home {background-color: #0099CC; color: #fff; border: solid, 4px #fff; width:200px;}
 
 /* FOOTER */
 footer[role="contentinfo"] {padding-top: 24px; padding-bottom: 36px; text-align: center;}

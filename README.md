@@ -13,7 +13,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 ## My Progress
 |  [day 0](http://github.com/Wilcott321/100DaysOfCode)  |  [day 1](http://github.com/Wilcott321/100DaysOfCode/tree/master/JSForm)  |  [day 2](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio)  |  [day 3](http://github.com/Wilcott321/100DaysOfCode/tree/master/JSTesting)  |  [day 4](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/index.html)  |  [day 5](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/index.html) |
   
-| [day 6](http://github.com/Wilcott321/100DaysOfCode/tree/master/JSDuckett) | [day 7](http://github.com/Wilcott321/100DaysOfCode/blob/master/JSDuckett/OrderForm/css/styles.css)  | [day 8](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/index.html)  | [day 9](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/portfolio.html)  | [day 10](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/portfolio.html) | day 11 |
+| [day 6](http://github.com/Wilcott321/100DaysOfCode/tree/master/JSDuckett) | [day 7](http://github.com/Wilcott321/100DaysOfCode/blob/master/JSDuckett/OrderForm/css/styles.css)  | [day 8](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/index.html)  | [day 9](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/portfolio.html)  | [day 10](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/portfolio.html) | [day 11](http://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/services.html) |
 
 | day 12 | day 13 | day 14 | day 15 | day 16 | day 17 |
 

@@ -9,10 +9,10 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 		
-		<!--- Stylesheet --->
+		<!--- Stylesheet ---->
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		
-		<!--- Bootstrap CDN --->
+		<!--- Bootstrap CDN ---->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		
 		<!--- Font Awesome CDN ---->
@@ -27,119 +27,62 @@
 			<script src="js/vendor/respond.min.js"></script>
 		<![endif]-->
     </head>
-    <body>
+    <body id="page-top">
         <!--[if lte IE 7]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header role="banner">
-			<nav role="navigation" class="navbar navbar-static-top navbar-default">
-				<div class="container">
+        
+			<nav id="main-nav" class="navbar navbar-fixed-top navbar-default">
+				<div class="container-fluid">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Bootstrappin'" width="120"?</a>
+						<a class="navbar-brand" href="index.html">Wilcott</a>
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
 							<li class="active">
 								<a href="index.html">
-									<span class="glyphicon glyphicon-home"></span> Home
+									Home
 								</a>
 							</li>
 							<li>
 								<a href="portfolio.html">
-									<span class="glyphicon glyphicon-picture"></span> Portfolio
+									Portfolio
+								</a>
+							</li>
+							<li>
+								<a href="services.html">
+									Services
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span class="icon fa fa-group"></span> Team
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="glyphicon glyphicon-envelope"></span> Contact
+									Contact
 								</a>
 							</li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
 			</nav>
-		</header>
+			
+			<header>
+				<div class="header-content">
+					<div class="inner-heading">
+						<h1>Hi, I'm Elliot Wilcott</h1>
+						<hr>
+						<p>I copywrite, design, and develop apps and sites for the web</p>
+						<a href="services.html" class="btn btn-default btn-xl">See My Work</a>
+					</div>
+				</div>
+			</header>
 		
-		<div id="homepage-feature" class="carousel slide" data-ride="carousel">
-		<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#homepage-feature" data-slide-to="0" class="active"></li>
-				<li data-target="#homepage-feature" data-slide-to="1"></li>
-				<li data-target="#homepage-feature" data-slide-to="2"></li>
-				<li data-target="#homepage-feature" data-slide-to="3"></li>
-			</ol>
-
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
-				<div class="item active">
-					<img src="img/RWDLayout.jpg" alt="Responsive desktop layout">
-				</div>
-				<div class="item">
-					<img src="img/RWDPhone.jpg" alt="Responsive mobile layout">
-				</div>
-				<div class="item">
-					<img src="img/RWDTablet.jpg" alt="Responsive tablet layout">
-				</div>
-				<div class="item">
-					<img src="img/RWDLaptop.jpg" alt="Responsive laptop layout">
-				</div>
-			</div><!-- /.carousel-inner -->
-
-			<!-- Controls -->
-			<a class="left carousel-control" href="#homepage-feature" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#homepage-feature" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div><!-- /end of homepage feature carousel -->
-		
-		<div class="page-contents container">
-			<div class="row">
-				<div class="col-sm-4 col-md-4">
-					<h2>Welcome!</h2>
-					<p>Suspendisse potenti. Maecenas commodo interdum purus at commodo. Nullam tempus posuere dolor, ac consectetur nulla mollis in. Integer at eros in tellus gravida mollis at non justo. In hac habitasse platea dictumst. Ut interdum lorem ac porta gravida.</p>
-					<p><a class="btn btn-primary pull-right" href="#">See our portfolio <span class="icon fa fa-arrow-circle-right"></span></a></p>
-				</div>
-				<div class="col-sm-4 col-md-4">
-					<h2>Recent Updates</h2>
-					<p>Suspendisse potenti. Maecenas commodo interdum purus at commodo. Nullam tempus posuere dolor, ac consectetur nulla mollis in. Integer at eros in tellus gravida mollis at non justo. In hac habitasse platea dictumst. Ut interdum lorem ac porta gravida.</p>
-					<p><a class="btn btn-primary pull-right" href="#">See what's new! <span class="icon fa fa-arrow-circle-right"></span></a></p>
-				</div>
-				<div class="col-sm-4 col-md-4">
-					<h2>Our Team</h2>
-					<p>Suspendisse potenti. Maecenas commodo interdum purus at commodo. Nullam tempus posuere dolor, ac consectetur nulla mollis in. Integer at eros in tellus gravida mollis at non justo. In hac habitasse platea dictumst. Ut interdum lorem ac porta gravida.</p>
-					<p><a class="btn btn-primary pull-right" href="#">Meet the team! <span class="icon fa fa-arrow-circle-right"></span></a></p>
-				</div>
-			</div><!-- /end of row -->
-		</div><!-- /end of container -->
-		
-		<footer role="contentinfo">
-			<ul class="social">
-				<li><a href="#" title="Twitter Profile"><span class="icon fa fa-twitter fa-2x"></span></a></li>
-				<li><a href="#" title="Facebook Page"><span class="icon fa fa-facebook fa-2x"></span></a></li>
-				<li><a href="#" title="LinkedIn Profile"><span class="icon fa fa-linkedin fa-2x"></span></a></li>
-				<li><a href="#" title="Google+ Profile"><span class="icon fa fa-google-plus fa-2x"></span></a></li>
-				<li><a href="#" title="GitHub Profile"><span class="icon fa fa-github-alt fa-2x"></span></a></li>
-			</ul>
-			<p><small>Copyright &copy; Company Name</small></p>
-		</footer>
-		
-		<!-- Scripts --->
+		<!-- Scripts ---->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>

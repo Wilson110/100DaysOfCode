@@ -1,7 +1,14 @@
 /* NAVBAR SETTINGS */
-.navbar {margin-bottom:0px;}
-			
+.navbar-default{-webkit-transition:all .35s; -moz-transition:all .35s; transition:all .35s;}
+.navbar-defaul .navbar-header .navbar-brand {text-transform: uppercase; font-weight: 700;}			
 a {padding:30px 30px 14px; font-size:18px;}
+
+/* HEADINGS */
+header .header-content {position:relative; width: 100%; padding: 100px 15px; text-align: center;}
+
+header .header-content .inner-heading h1 {margin-top: 0; margin-bottom: 0; text-transform: uppercase; font-weight: 700;}
+
+header .header-content .inner-heading hr {margin: 30px auto; max-width: 50px; border-width: 3px;}
 
 /* CAROUSEL SETTINGS */
 .carousel {margin-top:0px; position: absolute; top: -20px; padding-bottom: 20px;}

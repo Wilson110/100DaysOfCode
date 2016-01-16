@@ -28,22 +28,22 @@ function offerExpires(today) {
 	var weekFromToday, day, date, month, year, dayNames, monthNames;
   
   //Add 7 days time in milliseconds
-	weekFromToday = newDate(today.getTime() + 7 * 24 * 60 * 60 * 1000);
+	weekFromToday = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
   
   // the array to hold the days and month
-  dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'October', 'November', 'December'];
+	dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+	monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'October', 'November', 'December'];
   
   // get parts of the date
-  day = dayNames[weekFromToday.getDay()];
-  date = weekFromToday.getDate();
-  month = monthNames[weekFromToday.getMonth()];
-  year = weekFromToday.getFullYear();
+	day = dayNames[weekFromToday.getDay()];
+	date = weekFromToday.getDate();
+	month = monthNames[weekFromToday.getMonth()];
+	year = weekFromToday.getFullYear();
   
   // create the expiration message
-  var expiryMsg = 'Offer expires next ';
-  expiryMsg += day + ' <br/>(' + date + '' + month + '' + year + ')';
-  return expiryMsg;
+	expiryMsg = 'Offer expires next ';
+	expiryMsg += day + ' <br/>(' + date + ' ' + month + ' ' + year + ')';
+	return expiryMsg;
 }
 
 

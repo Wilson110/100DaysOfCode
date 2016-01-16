@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  background-color: #fff;
+  background: url("http://s26.postimg.org/mmg7z6u3t/travelworthy_backdrop.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  background: #1E1B1E;
+  background: url("http://s26.postimg.org/9jklfx3vt/travelworthy_logo.gif") no-repeat;
+  width: 230px;
+  height: 180px;
+  float: left;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+}
+
+h2 {
+  margin: 1.75em 0 0 0;
+  color: #adffda;
+  font-weight: normal;
+}
+h2 + p {
+  margin: 0.25em 0 0 0;
+}
+p + p {
+  margin: 0;
+}
+p + h2 {
+  margin: 10px 0 0 0;
+}
+
+/* Messaging */
+#message {
+  float: left;
+  clear: left;
+  background-color: #FFB87A;
+  color: #1E1B1E;
+  width: 170px;
+  padding: 18px 30px;
+  text-align: center;
+}
+
+/* Creates the black bar */
+#info {
+  background-color: #1E1B1E;
+  color: #fff;
+  width: 200px;
+  padding: 0 15px;
+  text-align: center; /* centers the text in the bar */
+  min-height: 100%;
+  position: absolute; /* Makes it vertical */
+  top: 0; /* no margin from the top */
+  right: 10%; /* moves the bar to the right */
+}
+
+/* JS-enabled styles based on program script 
+Text will only appear when called by JS */
+#hotelName { 
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 120%;
+  margin-top: 10px;
+  border-top: 1px solid #fff; /* white bar at the top */
+  border-bottom: 1px solid #fff; /* white bar at the bottom */
+  padding: 10px 0;
+}
+#hotel1 {
+  margin-top: 1em;
+  border-top: 1px solid #fff;
+  padding-top: 1em;
+}
+#hotel2 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1em;
+}
+#rooms {
+  font-size: 440%;
+  color: #FFB87A;
+  display: inline-block;
+  margin: 0;
+}
+#roomRate {
+  text-decoration: line-through;
+  display: inline-block;
+  float: left;
+  padding-top: 10px;
+}
+#specialRate {
+  font-size: 440%;
+  color: #FFB87A;
+  display: inline-block;
+  padding: 10px 0 20px 0;
+  margin: 0;
+}
+#offerEnds {
+  text-transform: uppercase;
+  color: #FFB87A;
+  font-size: 75%;
+}
+.true, .false {
+  padding: 0 50px 0 50px;
+  line-height: 20px;
+  text-align: left;
+  background-image: url("http://s26.postimg.org/dsfo78bfp/tick_cross.png");
+  background-position: 120px 0;
+  background-repat: no-repeat;
+}
+.false {
+  background-position: 120px -28px;
+}
+
+/* footer */
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ADFFDA;
+}
+#footer p {
+  padding: 10px;
+  margin: 0;
+}
+.data {
+  padding: 10px;
+}

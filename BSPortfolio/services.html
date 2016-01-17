@@ -33,60 +33,75 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <header role="banner">
-			<nav role="navigation" class="navbar navbar-static-top navbar-default">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="index.html">Wilcott</a>
-					</div>
-					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
-							<li>
-								<a href="index.html">
-									Home
-								</a>
-							</li>
-							<li>
-								<a href="portfolio.html">
-									Portfolio
-								</a>
-							</li>
-							<li class="active">
-								<a href="services.html">
-								 	Services
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									Contact
-								</a>
-							</li>
-						</ul>
-					</div><!--/.nav-collapse -->
+		<!-- Navigation -->
+		<nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Wilcott</a>
 				</div>
-			</nav>
-		</header>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="portfolio.html">
+								Portfolio
+							</a>
+						</li>
+						<li class="active">
+							<a href="services.html">
+								Services
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav><!--- /end of navigation --->
 		
 		
 		<div class="page-contents container">
+			<!--- Page Header --->
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="page-header">My Services</h1>
+				</div>
+			</div>
+			
+			<!--- Services --->
 			<div class="row">
 				<div class="col-sm-4 col-md-4">
+					<div class="icon round">
+						<i class="file-image-o"></i>
+					</div>
 					<h2>Print Design</h2>
 					<p>Suspendisse potenti. Maecenas commodo interdum purus at commodo. Nullam tempus posuere dolor, ac consectetur nulla mollis in. Integer at eros in tellus gravida mollis at non justo. In hac habitasse platea dictumst. Ut interdum lorem ac porta gravida.</p>
 					<p><a class="btn btn-services btn-primary pull-right" href="#">View my portfolio <span class="icon fa fa-arrow-circle-right"></span></a></p>
 				</div>
 				<div class="col-sm-4 col-md-4">
+					<div class="icon round">
+						<i class="icon-laptop"></i>
+					</div>
 					<h2>UI Development</h2>
 					<p>Suspendisse potenti. Maecenas commodo interdum purus at commodo. Nullam tempus posuere dolor, ac consectetur nulla mollis in. Integer at eros in tellus gravida mollis at non justo. In hac habitasse platea dictumst. Ut interdum lorem ac porta gravida.</p>
 					<p><a class="btn btn-services btn-primary pull-right" href="#">My latest projects <span class="icon fa fa-arrow-circle-right"></span></a></p>
 				</div>
 				<div class="col-sm-4 col-md-4">
+					<div class="icon round">
+						<i class="icon-laptop"></i>
+					</div>
 					<h2>Digital Marketing</h2>
 					<p>Suspendisse potenti. Maecenas commodo interdum purus at commodo. Nullam tempus posuere dolor, ac consectetur nulla mollis in. Integer at eros in tellus gravida mollis at non justo. In hac habitasse platea dictumst. Ut interdum lorem ac porta gravida.</p>
 					<p><a class="btn btn-services btn-primary pull-right" href="#">Get a quote <span class="icon fa fa-arrow-circle-right"></span></a></p>
@@ -94,7 +109,15 @@
 			</div><!-- /end of row -->
 		</div><!-- /end of container -->
 		
-		
+		<!--- Footer --->
+		<footer>
+			<div class="footer navbar-fixed-bottom">
+				<p class="footer-info">
+					&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>, 
+					designed by E. Wilson d.b.a <a href="http://github.com/Wilcott321">Elliot Wilcott</a>
+				</p>
+			</div>
+		</footer>
 		
 		<!-- Scripts ---->
 

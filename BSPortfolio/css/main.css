@@ -13,6 +13,7 @@ header .header-content {position:relative; width: 100%; padding: 200px 15px; tex
 header .header-content .inner-heading h1 {margin-top: 0; margin-bottom: 0; text-transform: uppercase; font-weight: 700; color: #fff;}
 header .header-content .inner-heading hr {margin: 30px auto; max-width: 50px; border-width: 3px;}
 header .header-content .inner-heading p {margin-bottom: 50px; font-size: 16px; font-weight: 300; color: #fff;}
+header .header-content .outer-heading {padding-top: 30px;}
 
 /* BUTTONS */
 .btn-services {background-color: #0099CC; color: #fff;}
@@ -22,8 +23,8 @@ header .header-content .inner-heading p {margin-bottom: 50px; font-size: 16px; f
 footer[role="contentinfo"] {padding-top: 24px; padding-bottom: 36px; text-align: center;}
 
 /* SOCIAL MEDIA LINKS */
-ul.social {margin: 0; padding: 0; width: 100%; text-align: center;}
-ul.social li {display: inline-block;}
-ul.social li a {display: inline-block; color: #bfbfbf; margin: 0 3px 3px 0;}
-ul.social li a:hover {text-decoration: none; color: #fff; background-color:#bfbfbf;}
+ul.social-icon {margin: 0; padding: 0; width: 100%; text-align: center;}
+ul.social-icon li {display: inline-block;}
+ul.social-icon li a {display: inline-block; color: #fff; margin: 0 10px 2px 10px;}
+ul.social-icon li a:hover {text-decoration: none; color: #0099CC; background-color:#fff;}
 		

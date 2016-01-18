@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js">
+		</script>
+	</head>
+	<body ng-app="app" ng-controller="MainController as main">
+		<h2>Hollywood Contact List</h2>
+		<hr/>
+		<label>Search for an actor: <input type="text" ng-model="searchfor"/></label>
+		<div ng-repeat="person in main.people | filter:searchfor">
+			<p>{{person.name}}<br/>
+				{{person.phone}}</p>
+		</div>
+
+		<!--- Script ---->
+		<script>
+		angular.module('app',[]).controller("MainController", function(){
+			this.people = [
+				{
+					name: "Johnny Depp",
+					phone: "555-3621"
+				},
+				{
+					name: "Meryl Streep",
+					phone: "555-8053"
+				},
+				{
+					name: "Lucy Lui",
+					phone: "555-8024"
+				},
+				{
+					name: "Kerry Washington",
+					phone: "555-9818"
+				},
+				{
+					name: "Leonardo DiCaprio",
+					phone: "555-4949"
+				},
+			];
+		});
+		</script>
+	</body>
+</html>

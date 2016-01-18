@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js">
+		</script>
+		<title>To Do List</title>
+	</head>
+	<body ng-app="app" ng-controller="MainController as main">
+      <h2>ToDo List</h2>
+      <ul>
+        <li ng-repeat="task in main.tasks">
+          <input type="checkbox" ng-model="task.done" />
+          <span ng-if="!task.done">{{task.name}}</span>
+        </li>
+      </ul>
+		
+		<!-- scripts -->
+		<script>
+		angular.module('app', []).controller("MainController", function(){
+			this.tasks = [
+				{
+					name: "Go to store",
+					done: false // changing this to true will check the box
+				},
+				{
+					name: "Walk the dog",
+					done: false
+				},
+				{
+					name: "Dinner with boss",
+					done: false
+				}
+			];
+		});
+		</script>
+	</body>
+</html>

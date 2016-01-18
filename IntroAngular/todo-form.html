@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js">
+		</script>
+	</head>
+	<body ng-app="app" ng-controller="MainController as main">
+		<h2>My ToDo List </h2>
+		<hr />
+		<form>
+			<h3>New Task:</h3>
+			Name:<input type="text" ng-model="newtask.name" />
+			<input type="submit" ng-click="main.add(newtask)" value="add task">
+		</form>
+		<hr />
+		<ul>
+        	<li ng-repeat="task in main.tasks">
+          		<input type="checkbox" ng-model="task.done" ng-click="main.delete(task)" />
+          		<span ng-hide="task.done">{{task.name}}</span>
+        	</li>
+      	</ul>
+
+
+		<!-- scripts -->
+		<script>
+		angular.module('app', []).controller("MainController", function(){
+			this.tasks = [
+				{
+					name: "Read for 2 hours",
+					done: false // changing this to true will check the box
+				},
+				{
+					name: "Weightlift at the gym",
+					done: false
+				},
+				{
+					name: "Go to work",
+					done: false
+				},
+				{
+					name: "Cook dinner",
+					done: false
+				},
+				{
+					name: "Study AngularJS",
+					done: false
+				},
+				{
+					name: "Code for an hour or 2",
+					done: false
+				}
+			];
+
+			this.add = function(newtask) {
+				console.log("adding task: " + newtask.name);
+				var task = {};
+				task.name = newtask.name;
+				task.done = false;
+				this.tasks.push(task);
+				newtask.name = "";
+			};
+
+			this.delete = function(task) {
+				console.log("deleting task: " + task.name);
+				for (var i=0; i < this.tasks.length; i++) {
+					if (this.tasks[i].name === task.name) {
+						this.tasks.splice(i,1);
+						break;
+					}
+				}
+			};
+		});
+		</script>
+	</body>
+</html>

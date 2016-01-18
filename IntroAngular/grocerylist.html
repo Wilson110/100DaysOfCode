@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js">
+		</script>
+	</head>
+	<body ng-app="app" ng-controller="MainController as main">
+		<h2>Grocery List</h2>
+		<hr/>
+		<div ng-repeat="item in main.items">
+			<table>
+			<tr>
+				<td>{{item.name}}</td>
+
+				<td>{{item.price | currency}}</td>
+			</tr>
+			</table>
+		</div>
+		<!--- Script ---->
+		<script>
+		angular.module('app',[]).controller("MainController", function(){
+			this.items = [
+				{
+					name: "Cage-free eggs",
+					price: "3.29"
+				},
+				{
+					name: "Organic blueberries",
+					price: "4.99"
+				},
+				{
+					name: "Asparagus",
+					price: "2.99"
+				},
+				{
+					name: "Brussel Sprouts",
+					price: "2.99"
+				},
+				{
+					name: "Kale chips",
+					price: "5.99"
+				},
+			];
+		});
+		</script>
+	</body>
+</html>

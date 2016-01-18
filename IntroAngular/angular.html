@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+		<title>Angular for Noobs</title>
+	</head>
+	<body ng-controller="MainController as main">
+		<div>
+			<form>
+				<label>Name:</label>
+				<input type="text" ng-model="name" />
+				<label>Enter first number:</label>
+				<input type="number" ng-model="main.num1" />
+				<label>Enter second number:</label>
+				<input type="number" ng-model="main.num2" />
+			</form>
+			<hr>
+			<h1>Hello {{name}}!</h1><br/>
+			<h3>Sum: {{main.num1 + main.num2}}</h3> <br/>
+			<h3>Product: {{main.num1 * main.num2}}</h3>
+		</div>
+		
+		<!-- scripts -->
+		<script>
+			angular.module('app',[]).controller('MainController', function(){
+				this.num1 = 0;
+				this.num2 = 0;
+			});
+		</script>
+	</body>
+</html>

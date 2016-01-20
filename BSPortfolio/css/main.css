@@ -22,6 +22,9 @@ header .header-content .outer-heading {padding-top: 30px;}
 .page-header {color: #0099CC;}
 h2 {color: #0099CC;}
 
+/* CONTACT */
+.well {padding-bottom: 35px;}
+
 /* THE MAP */
 .map {min-width: 300px; min-height: 300px; width: 100%; height: 100%;}
 

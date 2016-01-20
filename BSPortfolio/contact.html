@@ -86,12 +86,12 @@
 					<div class="col-md-6">
 						<div class="well well-sm">
 							<!--- Contact Form --->
-							<form class="form-horizontal" method="post">
+							<form id="contact-form" class="form-horizontal" method="post">
 								<fieldset>
 								<legend class="text-center header">Contact Me</legend>
 								<div class="form-group">
 									<div class="col-md-10 col-md-offset-1">
-										<input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+										<input id="name" name="name" type="text" placeholder="First Name" class="form-control">
 									</div>
 								</div>
 								<div class="form-group">
@@ -177,7 +177,7 @@
 					validating: 'glyphicon glyphicon-refresh'
 				},
 				fields: {
-					Name: {
+					name: {
 						validators: {
 							notEmpty: {
 								message: 'The Name is required and cannot be empty'
@@ -194,7 +194,7 @@
 							}
 						}
 					},
-					Message: {
+					message: {
 						validators: {
 							notEmpty: {
 								message: 'The Message is required and cannot be empty'

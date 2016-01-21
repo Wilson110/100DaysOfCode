@@ -2,8 +2,22 @@
 <html>
 	<head>
 		<title>Hello, jQuery!</title>
+		<meta charset="utf-8"/>
 	</head>
 	<body>
+		<h1 id="identify">Hello, jQuery!</h1>
+		<h1 class="demo">Hello, jQuery!</h1>
+		<h1>Hello, again</h1>
+
+
 		<script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
+		<script>
+			$(function (){
+				//updates the text inside <h1> element
+				$("#identify").text("Changed based on id");
+				$('h1').text("Changed based on element");
+				$('h1.demo').text("Changed based on class");
+			});
+		</script>
 	</body>
 </html>

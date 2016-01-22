@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello, jQuery!</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h1> Hello, h1</h1>
+
+		<header>
+			<h1>Inside header</h1>
+			<div>
+				<h1>Also inside header</h1>
+			</div>
+		</header>
+
+
+
+		<script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
+		<script>
+			$(function(){
+				// parent child
+				$('header > h1').text('Parent child relationship');
+
+				// for descendant, 
+				// will change all <h1> elements inside <header>
+				$('header h1').text('Descendant relationship');
+			});
+			
+		</script>
+	</body>
+</html>

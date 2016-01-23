@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons Demo</title>
+		<!--- Bootstrap CDN ---->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<style>
+			.glow {background-color:#ffffcc;}
+		</style>
+	</head>
+	<body class="container">
+		<div class="row">
+    		<div class="col-sm-12 col-md-12">
+      			<h3>Using CSS selectors with jQuery</h3>
+      			<h4>About</h4>
+      			<p>I'm taking an Intro to jQuery course via Microsoft. In the first module of the course, the instructor created an example using Bootstrap buttons to demonstrate how jQeuery is used to select CSS classes by (1)element, (2)class, (3)heirarchy, and (4)attribute. I decided to create my own button example to demonstrate and test my knowledge of concepts I've learned thus far. To clarify, I created heirarchy examplse that demonstrate both parent-child node relationship and parent-descendant relationship.</p>
+    		</div>
+  		</div><!--- end of row ---->
+  		<div class="row">
+     		<div class="col-sm-12 col-md-7">
+      			<h4>Element example</h4>
+       			<div class="btn btn-info" id="nav-btn">nav</div>
+       			<div class="btn btn-info" id="h-btn">h3</div>
+       
+       			<h4>Class example</h4>
+       			<div class="btn btn-info" id="first-btn">.first</div>
+       			<div class="btn btn-info" id="third-btn">div.third</div>
+       
+       			<h4>Heirarchy example</h4>
+       			<div class="btn btn-info" id="descendant-btn">div nav</div>
+       			<div class="btn btn-info" id="parent-btn">div.second > p</div>
+       
+       			<h4>Attribute example</h4>
+       			<div class="btn btn-info" id="attribute-btn-equal">[custom='demo']</div>
+       			<div class="btn btn-info" id="attribute-btn-starts">[custom^='another']</div>
+       			<div class="btn btn-info" id="attribute-btn-contains">[custom*='demo']</div>
+     		</div>
+  		</div><!-- end of row -->
+
+  		<hr>
+
+  		<div class="row">
+    		<div class="col-sm-12 col-md-7">
+      			<h3>Watch This Demo</h3>
+      			<div class="first">
+        			<p>This content applies the 'first' class. Press the <strong>.first</strong> button to see how the style changes.</p>
+      			</div>
+      			<br/>
+      			<div class="second">
+        			<p>This is a paragraph before a list. Notice the difference between when the <strong>div nav</strong> button is pressed and the <strong>div > p</strong> button and what is highlighted in this section.</p>
+        			<nav>
+          				<ul>
+            				<li>this is a list item</li>
+            				<li>another list item</li>
+          				</ul>
+        			</nav>
+      			</div>
+      			<br/>
+      			<div class="third">
+        			<p>This content applies the 'third' class. Press the <strong>.third</strong> button to see how the style changes.</p><br/>
+        			<div custom='demo'>This is demo text</div><br/>
+        			<div custom='another demo'>More demo text</div>
+      			</div>
+    		</div>
+  		</div><!-- end of row -->
+
+		<!-- Scripts ---->
+		<script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script>
+			$(function (){
+				$('#nav-btn').click(function(){
+					resetHtml();
+					$('nav').addClass('glow');
+					displayHtml();
+				});
+				$('#h-btn').click(function(){
+					resetHtml();
+					$('h3').addClass('glow');
+				});
+			});
+		</script>
+	</body>
+</html>

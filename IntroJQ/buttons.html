@@ -98,7 +98,22 @@
             resetHtml();
             $('div.second > p').addClass('glow');
             displayHtml();
-        }).
+        });
+        $('#attribute-btn-equal').click(function(){
+            resetHtml();
+            $('[custom="demo"]').addClass('glow');
+            displayHtml();
+        });
+        $('#attribute-btn-starts').click(function(){
+            resetHtml();
+            $('[custom^="another"]').addClass('glow');
+            displayHtml();
+        });
+        $('#attribute-btn-contains').click(function(){
+            resetHtml();
+            $('[custom*="demo"]').addClass('glow');
+            displayHtml();
+        });
 
 			});
 		</script>

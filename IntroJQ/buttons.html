@@ -70,14 +70,36 @@
 		<script>
 			$(function (){
 				$('#nav-btn').click(function(){
-					resetHtml();
-					$('nav').addClass('glow');
-					displayHtml();
+            resetHtml();
+            $('nav').addClass('glow');
+            displayHtml();
 				});
 				$('#h-btn').click(function(){
-					resetHtml();
-					$('h3').addClass('glow');
+            resetHtml();
+            $('h3').addClass('glow');
+            displayHtml();
 				});
+        $('#first-btn').click(function(){
+            resetHtml();
+            $('.first').addClass('glow');
+            displayHtml();
+        });
+        $('#third-btn').click(function(){
+            resetHtml();
+            $('div.third').addClass('glow');
+            displayHtml();
+        });
+        $('#descendant-btn').click(function(){
+            resetHtml();
+            $('div nav').addClass('glow');
+            displayHtml();
+        });
+        $('#parent-btn').click(function(){
+            resetHtml();
+            $('div.second > p').addClass('glow');
+            displayHtml();
+        }).
+
 			});
 		</script>
 	</body>

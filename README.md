@@ -17,7 +17,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 12](https://github.com/Wilcott321/100DaysOfCode/blob/master/JSDuckett/HotelOffer/index.html) | [day 13](http://github.com/100DaysOfCode/tree/master/BSPortfolio/contact.html) | [day 14](https://github.com/Wilcott321/100DaysOfCode/tree/master/IntroAngular) | [day 15](https://github.com/Wilcott321/100DaysOfCode/tree/master/IntroJQ) | [day 16](https://github.com/Wilcott321/100DaysOfCode/tree/master/IntroJQ/demo.html) | [day 17](https://github.com/Wilcott321/100DaysOfCode/tree/master/IntroJQ/demo2.html) |
 
-| [day 18](https://github.com/Wilcott321/100DaysOfCode/tree/master/IntroJQ/buttons.html) | [day 19](https://github.com/Wilcott321/100DaysOfCode/blob/master/BSPortfolio/css/main.css) | day 20 | day 21 | day 22 | day 23 |
+| [day 18](https://github.com/Wilcott321/100DaysOfCode/tree/master/IntroJQ/buttons.html) | [day 19](https://github.com/Wilcott321/100DaysOfCode/blob/master/BSPortfolio/css/main.css) | [day 20](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/services.html) | day 21 | day 22 | day 23 |
 
 | day 24 | day 25 | day 26 | day 27 | day 28 | day 29 |
 

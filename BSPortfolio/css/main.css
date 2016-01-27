@@ -59,7 +59,15 @@ ul.social-icon li a {display: inline-block; color: #fff; margin: 0 10px 2px 10px
 ul.social-icon li a:hover {text-decoration: none; color: #0099CC; background-color:#fff;}
 
 /* BLINKING CURSOR */
-.blinking-cursor {font-weight:100; color:#fff; -webkit-animation:1s blink step-end infinite; -moz-animation:1s blink step-end infinite; -ms-animation:1s blink step-end infinite; -o-animation:1s blink step-end infinite; animation:1s blink step-end infinite;}
+.blinking-cursor {
+	font-weight:100; 
+	color:#fff; 
+	-webkit-animation:1s blink step-end infinite; 
+	-moz-animation:1s blink step-end infinite; 
+	-ms-animation:1s blink step-end infinite; 
+	-o-animation:1s blink step-end infinite; 
+	animation:1s blink step-end infinite;
+}
 @keyframes "blink" {
 	from, to {color:transparent;}
 	50%{color:#fff;}

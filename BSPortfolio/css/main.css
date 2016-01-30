@@ -4,7 +4,7 @@
 .navbar-default .navbar-collapse .navbar-nav .active a {background-color: #0099cc; border: solid 2px #fff;}
 .navbar-default .navbar-nav .open .dropdown-menu > li:hover {font-weight:bold; background-color: #0099cc; color: #fff;}
 .open > .dropdown-toggle.listMenu {font-weight: bold !important; background-color: #0099cc !important; color: #fff !important; outline: none !important; border: none !important;}
-.navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default .navbar-nav .open .dropdown-menu {color: #0099cc;}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default .navbar-nav .open .dropdown-menu {background-color: #fff; color: #0099cc;}
 .navbar-default .navbar-collapse .navbar-nav li a {color: #fff;}
 .navbar-default .navbar-collapse .navbar-nav li a:hover {font-weight:bold; background-color: #0099cc; color: #fff;}
 .navbar-nav {text-transform:uppercase;}

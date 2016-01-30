@@ -17,6 +17,7 @@ body {font-family: 'Raleway';}
 .well {background-color: #0099CC;}
 .panel {background-color: #0099CC; color: #fff;}
 .services {text-align:center;}
+.port-item {margin-bottom: 25px;}
 
 /* HEADINGS */
 header {position: relative; width: 100%; min-height: auto; text-align: center;}

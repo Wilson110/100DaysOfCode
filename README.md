@@ -19,7 +19,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 18](https://github.com/Wilcott321/100DaysOfCode/tree/master/IntroJQ/buttons.html) | [day 19](https://github.com/Wilcott321/100DaysOfCode/blob/master/BSPortfolio/css/main.css) | [day 20](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/services.html) | [day 21](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/index.html) | [day 22](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/port_one.html) | [day 23](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/port_two.html) |
 
-| [day 24](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/port_three.html) | [day 25](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD) | day 26 | day 27 | day 28 | day 29 |
+| [day 24](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/port_three.html) | [day 25](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD) | [day 26](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD/photos.html) | day 27 | day 28 | day 29 |
 
 | day 30 | day 31 | day 32 | day 33 | day 34 | day 35 |
 

@@ -12,12 +12,14 @@
 /* BODY SETTINGS */
 #page-top {background-color: #0099CC;}
 body {font-family: 'Raleway';}
-.page-contents {height: 100%; padding-top: 45px;}
+.page-contents {padding-top: 45px;}
 .contact {padding-bottom: 50px;}
 .well {background-color: #0099CC;}
 .panel {background-color: #0099CC; color: #fff;}
-.services {text-align:center;}
+.services {text-align:center; padding-bottom:45px;}
 .port-item {margin-bottom: 25px;}
+hr.hr-line {padding:0; border:none; border-top: medium double #0099CC; color: #0099CC; text-align: center;}
+hr.hr-line:after {content: "§"; display: inline-block; position: relative; top: -0.7em; font-size: 1.5em; padding: 0 0.25em; background: white; }
 
 /* HEADINGS */
 header {position: relative; width: 100%; min-height: auto; text-align: center;}
@@ -89,5 +91,10 @@ ul.social-icon li a:hover {text-decoration: none; color: #0099CC; background-col
 @-ms-keyframes "blink" {
 	from, to {color:transparent;}
 	50%{color:#fff;}
+}
+
+/* CUSTOM MEDIA QUERIES */
+@media (max-width: 768px) {
+  [class*="col-"]{margin-bottom: 25px;} /*adds space between columns in mobile view*/
 }
 		

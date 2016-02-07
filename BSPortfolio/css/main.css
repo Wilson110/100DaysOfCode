@@ -18,8 +18,8 @@ body {font-family: 'Raleway';}
 .panel {background-color: #0099CC; color: #fff;}
 .services {text-align:center; padding-bottom:45px;}
 .port-item {margin-bottom: 25px;}
-hr.hr-line {padding:0; border:none; border-top: medium double #0099CC; color: #0099CC; text-align: center;}
-hr.hr-line:after {content: "§"; display: inline-block; position: relative; top: -0.7em; font-size: 1.5em; padding: 0 0.25em; background: white; }
+hr.hr-line {padding:0; border:none; height:2px; border-top: medium solid #0099CC; border-bottom: medium solid #0099CC; color: #0099CC; text-align: center;}
+hr.hr-line:after {content: "§"; display: inline-block; position: relative; top: -0.7em; font-size: 1.5em; padding: 0 0.50em; background: white; }
 
 /* HEADINGS */
 header {position: relative; width: 100%; min-height: auto; text-align: center;}
@@ -53,10 +53,10 @@ i {color: #0099cc;}
 
 /* FOOTER */
 footer {margin-top:30px;}
-footer .navbar-fixed-bottom {width: 100%; height: 60px; color: #fff; background-color: #0099CC; padding-top: 20px; padding-bottom: 20px; text-align: center;}
+footer .navbar-fixed-bottom, footer .navbar-static-bottom {width: 100%; height: 60px; color: #fff; background-color: #0099CC; padding-top: 20px; padding-bottom: 20px; text-align: center;}
 footer .container {position: absolute; width: 100%; height: 60px; color: #fff; background-color: #0099CC; padding-top: 20px; padding-bottom: 20px; text-align: center;}
-footer .navbar-fixed-bottom p.footer-info a {color: #fff;}
-footer .navbar-fixed-bottom p.footer-info a:hover {color: #fff; text-decoration: underline;}
+footer .navbar-fixed-bottom p.footer-info a, footer .navbar-static-bottom p.footer-info {color: #fff;}
+footer .navbar-fixed-bottom p.footer-info a:hover, footer .navbar-static-bottom p.footer-info a:hover {color: #fff; text-decoration: underline;}
 footer .container p.footer-info a {color: #fff;}
 footer .container p.footer-info a:hover {color: #fff; text-decoration: underline;}
 

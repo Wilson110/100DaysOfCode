@@ -17,6 +17,8 @@ body {font-family: 'Raleway';}
 .well {background-color: #0099CC;}
 .panel {background-color: #0099CC; color: #fff;}
 .services {text-align:center; padding-bottom:45px;}
+.services li {text-decoration:none; display:inline; padding-right:30px;}
+.services li a {color: #0099CC; font-size:3em;}
 .port-item {margin-bottom: 25px;}
 hr.hr-line {padding:0; border:none; height:2px; border-top: medium solid #0099CC; border-bottom: medium solid #0099CC; color: #0099CC; text-align: center;}
 hr.hr-line:after {content: "§"; display: inline-block; position: relative; top: -0.7em; font-size: 1.5em; padding: 0 0.50em; background: white; }
@@ -50,6 +52,8 @@ h2 {color: #0099CC;}
 
 /* FONT AWESOME */
 i {color: #0099cc;}
+span.fa-stack {font-size:4em;}
+
 
 /* FOOTER */
 footer {margin-top:30px;}

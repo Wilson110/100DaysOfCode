@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!--- scripts ---->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/handlebars-v3.0.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/gallery.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="page-header">
+				<h1>My photos</h1>
+			</div>
+			<ul class="nav nav-tabs">
+				<li role="" id="image1btn">
+					<a href="#">Image One</a>
+				</li>
+				<li role="" id="image2btn">
+					<a href="#">Image Two</a>
+				</li>
+			</ul>
+			<br/><br/>
+
+			<script id="image-template" type="text/x-handlebars-template">
+				<div class="title">
+					<h1>{{title}}</h1>
+					<h3 class="author">{{author}}</h3>
+					<img style="height:600px;" src="{{src}}"/>
+				</div>
+			</script>
+		</div>
+	</body>
+
+	<script type="text/javascript">
+
+		// getting the script id from the <body>
+		var source = $('#image-template').html();
+
+		// compiling to handlebars
+		var template = Handlebars.compile(source);
+
+		// writing data object to be used in <body> expressions
+		
+	</script>
+</html>

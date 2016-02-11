@@ -19,10 +19,29 @@
 			<div class="title">
 				<h1>{{title}}</h1>
 				<h3 class="author">{{author}}</h3>
-				<img style="height:600" src="{{src}}"/>
+				<img style="height:600px;" src="{{src}}"/>
 			</div>
 		</script>
-
-		
 	</body>
+
+	<script type="text/javascript">
+
+		// getting the script id from the <body>
+		var source = $('#image-template').html();
+
+		// compiling to handlebars
+		var template = Handlebars.compile(source);
+
+		// writing data object to be used in <body> expressions
+		var data = {
+			src: "https://upload.wikimedia.org/wikipedia/commons/archive/9/97/20101017074210%21The_Earth_seen_from_Apollo_17.jpg",
+			title: "The Earth seen from Apollo 17",
+			author: "Ed g2s"
+		};
+		// attaching data to the compiled template
+		var html = template(data);
+
+		// adding the data to the <div>
+		$('#content').html(html);
+	</script>
 </html>

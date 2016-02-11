@@ -60,44 +60,45 @@
 
 	<script type="text/javascript">
 
-		// getting the script id from the <body>
-		var source = $("#detail-template").html();
+    	var source = $("#detail-template").html();
 
-		// compiling template to handlebars
-		var detail_template = Handlebars.compile(source);
+    	var detail_template = Handlebars.compile(source);
 
-		source = $("#modal-template").html();
+    	source = $("#modal-template").html();
 
-		var modal_template = Handlebars.compile(source);
+    	var modal_template = Handlebars.compile(source);
 
-		// data for image
-		var data = {
-			src: "https://upload.wikimedia.org/wikipedia/commons/archive/9/97/20101017074210%21The_Earth_seen_from_Apollo_17.jpg",
-			title: "The Earth seen from Apollo 17",
-			author: "Ed g2s"
-		};
+    	// image data objecgt
+    	var data = {
+      		src: "https://upload.wikimedia.org/wikipedia/commons/archive/9/97/20101017074210%21The_Earth_seen_from_Apollo_17.jpg", 
+      		title:"The Earth seen from Apollo 17",
+      		author:"Ed g2s"
+    	};
 
-		var image1Data = {
+    	var image1Data = {
       		title: "image1",
       		author: "Tuxtso",
       		src: "https://upload.wikimedia.org/wikipedia/commons/archive/9/97/20101017074210%21The_Earth_seen_from_Apollo_17.jpg", 
-   		};
+    	};
 
-		// writing data object to be used in <body> expressions using click function
-		$("#detailsbtn").click(function(){
-			$("#imageModal").modal('hide');
-			var html = detail_template(data);
-			$("#content").html(html);
-		});
+    
+    	$("#detailsbtn").click(function () {
+      		$("#imageModal").modal('hide');
+      		var html = detail_template(data);
+      		$('#content').html(html);
+   		 });
 
-		$("#modalbtn").click(function(){
-			var html = modal_template(data);
-			$('#content').html(html);
-			$("imageModal").modal('show');
-			$("imageModal").on('hidden.bs.modal', function(){
-				$("#detailsbtn").click();
-			});
-		});
-		
-	</script>
+
+   		$("#modalbtn").click(function () {
+      		var html    = modal_template(data);
+      		$('#content').html(html);
+
+      		$("#imageModal").modal('show');
+
+      		$('#imageModal').on('hidden.bs.modal', function (){
+       			 $("#detailsbtn").click();
+      		});
+    	});
+    
+  	</script>
 </html>

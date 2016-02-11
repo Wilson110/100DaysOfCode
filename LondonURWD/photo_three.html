@@ -56,35 +56,38 @@
 	</body>
 
 	<script type="text/javascript">
-		// data for image one
-		var data1 = {
+
+		// getting the script id from the <body>
+		var source = $('#detail-template').html();
+
+		// compiling template to handlebars
+		var detail_template = Handlebars.compile(source);
+
+		source + $('#modal-template').html();
+
+		var modal_template = Handlebars.compile(source);
+
+		// data for image
+		var data = {
 			src: "https://upload.wikimedia.org/wikipedia/commons/archive/9/97/20101017074210%21The_Earth_seen_from_Apollo_17.jpg",
 			title: "The Earth seen from Apollo 17",
 			author: "Ed g2s"
 		};
 
-		// data for image two
-		var data2= {
-			src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Shopping_Center_Magna_Plaza_Amsterdam_2014.jpg/600px-Shopping_Center_Magna_Plaza_Amsterdam_2014.jpg",
-			title: "Shopping Center Magna Plaza Amsterdam 2014",
-			author: "Tuxyso"
-		};
-
-		// getting the script id from the <body>
-		var source = $('#detail-template').html();
-
-		// compiling to handlebars
-		var detail_template = Handlebars.compile(source);
-
 		// writing data object to be used in <body> expressions using click function
-		$("#image1btn").click(function(){
-			var html = detail_template(data1);
+		$("#detailsbtn").click(function(){
+			$("#imageModal").modal('hide');
+			var html = detail_template(data);
 			$("#content").html(html);
 		});
 
-		$("#image2btn").click(function(){
-			var html = detail_template(data2);
-			$('#content').html(html);
+		$("#modalbtn").click(function(){
+			var html = modal_template(data);
+			$("#content").html(html);
+			$("imageModal").modal('show');
+			$("imageModal").on('hidden.bs.modal', function(){
+				$("#detailsbtn").click();
+			});
 		});
 		
 	</script>

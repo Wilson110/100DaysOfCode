@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!--- scripts ---->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/handlebars-v3.0.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/gallery.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="page-header">
+				<h1>My photos</h1>
+			</div>
+			<ul class="nav nav-tabs">
+				<li role="" id="detailsbtn">
+					<a href="#">Details</a>
+				</li>
+				<li role="" id="modalbtn">
+					<a href="#">Modal</a>
+				</li>
+			</ul>
+			<br/><br/>
+
+			<div id="content" class="container-fluid" role="main">
+			</div>
+		</div><!--/end of container-->
+
+		<script id="detail-template" type="text/x-handlebars-template">
+			<br>
+			<div class="row-fluid">
+				<div class="col-sm-5">
+					<img style="width:100%" src="{{src}}"/>
+				</div>
+				<div class="col-sm-7">
+					<h1>{{title}}</h1>
+					<h3 class="author">{{author}}</h3>
+				</div>	
+			</div>
+		</script>
+
+		<script id="modal-template" type="text/x-handlebars-template">
+			<div id="imageModal" class="modal fade" role="dialog">
+				<div class="modal-dialog" style:"width:800px;">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img style="width:100%" src="{{src}}"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
+	</body>
+
+	<script type="text/javascript">
+		// data for image one
+		var data1 = {
+			src: "https://upload.wikimedia.org/wikipedia/commons/archive/9/97/20101017074210%21The_Earth_seen_from_Apollo_17.jpg",
+			title: "The Earth seen from Apollo 17",
+			author: "Ed g2s"
+		};
+
+		// data for image two
+		var data2= {
+			src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Shopping_Center_Magna_Plaza_Amsterdam_2014.jpg/600px-Shopping_Center_Magna_Plaza_Amsterdam_2014.jpg",
+			title: "Shopping Center Magna Plaza Amsterdam 2014",
+			author: "Tuxyso"
+		};
+
+		// getting the script id from the <body>
+		var source = $('#detail-template').html();
+
+		// compiling to handlebars
+		var detail_template = Handlebars.compile(source);
+
+		// writing data object to be used in <body> expressions using click function
+		$("#image1btn").click(function(){
+			var html = detail_template(data1);
+			$("#content").html(html);
+		});
+
+		$("#image2btn").click(function(){
+			var html = detail_template(data2);
+			$('#content').html(html);
+		});
+		
+	</script>
+</html>

@@ -44,14 +44,36 @@
 	</body>
 
 	<script type="text/javascript">
+		// data for image one
+		var data1 = {
+			src: "https://upload.wikimedia.org/wikipedia/commons/archive/9/97/20101017074210%21The_Earth_seen_from_Apollo_17.jpg",
+			title: "The Earth seen from Apollo 17",
+			author: "Ed g2s"
+		};
+
+		// data for image two
+		var data2= {
+			src: "https://upload.wikimedia.org/wikipedia/commons/thmb/3/38/Shopping_Center_Magna_Plaza_Amsterdam_2014.jpg",
+			title: "Shopping Center Magna Plaza Amsterdam 2014",
+			author: "Tuxyso"
+		};
 
 		// getting the script id from the <body>
-		var source = $('#image-template').html();
+		var source = $('#detail-template').html();
 
 		// compiling to handlebars
-		var template = Handlebars.compile(source);
+		var detail_template = Handlebars.compile(source);
 
-		// writing data object to be used in <body> expressions
+		// writing data object to be used in <body> expressions using click function
+		$("#image1btn").click(function(){
+			var html = detail_template(data1);
+			$("#content").html(html);
+		});
+
+		$("#image2btn").click(function(){
+			var html = detail_template(data2);
+			$('#content').html(html);
+		});
 		
 	</script>
 </html>

@@ -2,15 +2,27 @@
 <html lang="en">
 
 	<head>
+		<!--- scripts ---->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/handlebars-v3.0.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/gallery.css" rel="stylesheet">
 	</head>
 
 	<body>
 
-		<!--- scripts ---->
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/handlebars-v3.0.3.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<div id="content">
+		</div>
+
+		<script id="image-template" type="text/x-handlebars-template">
+			<div class="title">
+				<h1>{{title}}</h1>
+				<h3 class="author">{{author}}</h3>
+				<img style="height:600" src="{{src}}"/>
+			</div>
+		</script>
+
+		
 	</body>
 </html>

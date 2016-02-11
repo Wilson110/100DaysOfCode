@@ -58,12 +58,12 @@
 	<script type="text/javascript">
 
 		// getting the script id from the <body>
-		var source = $('#detail-template').html();
+		var source = $("#detail-template").html();
 
 		// compiling template to handlebars
 		var detail_template = Handlebars.compile(source);
 
-		source + $('#modal-template').html();
+		source = $("#modal-template").html();
 
 		var modal_template = Handlebars.compile(source);
 
@@ -83,7 +83,7 @@
 
 		$("#modalbtn").click(function(){
 			var html = modal_template(data);
-			$("#content").html(html);
+			$('#content').html(html);
 			$("imageModal").modal('show');
 			$("imageModal").on('hidden.bs.modal', function(){
 				$("#detailsbtn").click();

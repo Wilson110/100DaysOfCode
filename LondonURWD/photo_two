@@ -25,14 +25,22 @@
 			</ul>
 			<br/><br/>
 
-			<script id="image-template" type="text/x-handlebars-template">
-				<div class="title">
+			<div id="content" class="container-fluid" role="main">
+			</div>
+		</div><!--/end of container-->
+
+		<script id="detail-template" type="text/x-handlebars-template">
+			<br>
+			<div class="row-fluid">
+				<div class="col-sm-5">
+					<img style="width:100%" src="{{src"/>
+				</div>
+				<div class="col-sm-7">
 					<h1>{{title}}</h1>
 					<h3 class="author">{{author}}</h3>
-					<img style="height:600px;" src="{{src}}"/>
-				</div>
-			</script>
-		</div>
+				</div>	
+			</div>
+		</script>
 	</body>
 
 	<script type="text/javascript">

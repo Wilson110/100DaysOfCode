@@ -21,7 +21,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 24](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/port_three.html) | [day 25](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD) | [day 26](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD/photos.html) | [day 27](https://github.com/Wilcott321/100DaysOfCode/tree/master/LUAssignments) | [day 28](https://github.com/Wilcott321/100DaysOfCode/tree/master/LUAssignments/tasks.html) | [day 29](https://github.com/Wilcott321/100DaysOfCode/tree/master/LUAssignments) |
 
-| [day 30](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/services.html) | [day 31](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/css/main.css) | [day 32](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD) | [day 33](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD/photo_three.html) | day 34 | day 35 |
+| [day 30](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/services.html) | [day 31](https://github.com/Wilcott321/100DaysOfCode/tree/master/BSPortfolio/css/main.css) | [day 32](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD) | [day 33](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD/photo_three.html) | [day 34](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD/photo_gallery) | day 35 |
 
 | day 36 | day 37 | day 38 | day 39 | day 40 | day 41 |
 

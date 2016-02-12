@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!--- scripts ---->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/handlebars-v3.0.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap_default.css" rel="stylesheet">
+		<link href="css/gallery.css" rel="stylesheet">
+	</head>
+
+	<body role="document">
+		<div class="container">
+			<div class="page-header">
+				<h1>My photos</h1>
+			</div>
+			<ul class="nav nav-tabs">
+				<li role="" id="detailsbtn">
+					<a href="#">Details</a>
+				</li>
+				<li role="" id="modalbtn">
+					<a href="#">Modal</a>
+				</li>
+			</ul>
+			<br/><br/>
+
+			<div id="content" class="container-fluid" role="main">
+			</div>
+		</div><!--/end of container-->
+
+		<script id="detail-template" type="text/x-handlebars-template">
+			<br>
+			<div class="row-fluid">
+				<div class="col-sm-5">
+					<img style="width:100%" src="{{src}}"/>
+				</div>
+				<div class="col-sm-7">
+					<h1>{{title}}</h1>
+					<h3 class="author">{{author}}</h3>
+				</div>	
+			</div>
+		</script>
+
+
+		<script id="modal-template" type="text/x-handlebars-template">
+      		<div id="imageModal" class="modal fade" role="dialog">
+        		<div class="modal-dialog"  style="width:800">
+          			<div class="modal-content">
+            			<div class="modal-body">
+             	 			<img  style="width:100%" src="{{src}}"/>
+            			</div>
+            
+          			</div>
+
+        		</div>
+      		</div>
+    	</script>
+	</body>
+
+	<script type="text/javascript">
+
+    	var source = $("#detail-template").html();
+
+    	var detail_template = Handlebars.compile(source);
+
+    	source = $("#modal-template").html();
+
+    	var modal_template = Handlebars.compile(source);
+
+    	// image data objecgt
+    	var data = {
+      		src: "https://upload.wikimedia.org/wikipedia/commons/archive/9/97/20101017074210%21The_Earth_seen_from_Apollo_17.jpg", 
+      		title:"The Earth seen from Apollo 17",
+      		author:"Ed g2s"
+    	};
+
+    	var image1Data = {
+      		title: "image1",
+      		author: "Tuxtso",
+      		src: "https://upload.wikimedia.org/wikipedia/commons/archive/9/97/20101017074210%21The_Earth_seen_from_Apollo_17.jpg", 
+    	};
+
+    
+    	$("#detailsbtn").click(function () {
+      		$("#imageModal").modal('hide');
+      		var html = detail_template(data);
+      		$('#content').html(html);
+   		 });
+
+
+   		$("#modalbtn").click(function () {
+      		var html    = modal_template(data);
+      		$('#content').html(html);
+
+      		$("#imageModal").modal('show');
+
+      		$('#imageModal').on('hidden.bs.modal', function (){
+       			 $("#detailsbtn").click();
+      		});
+    	});
+    
+  	</script>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!--- scripts ---->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/handlebars-v3.0.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/gallery.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<script id="album-template" type="text/x-handlebars-template">
+			
+			<div class="row">
+				{{#each images}}
+				<div class="col-xs-12 col-md-3">
+					<a href="photo.html">
+						<div class="thumbnail">
+							<img class="crop-img" src="{{src}}" alt=""/>
+							<div class="author">
+								<h3>{{title}}</h3>
+								<p>{{author}}</p>
+							</div>
+						</div>
+					</a>
+				</div> //end of column
+				{{/each}}
+			</div> // end of row
+		</script>
+		
+	</body>
+
+	<script type="text/javascript">
+
+		
+	</script>
+</html>

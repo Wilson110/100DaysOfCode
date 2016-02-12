@@ -2,6 +2,11 @@
 <html lang="en">
 
 	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<title>Photo Gallery</title>
 		<!--- scripts ---->
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/handlebars-v3.0.3.js"></script>
@@ -12,14 +17,38 @@
 
 	<body>
 
+		<div class="container">
+
+      		<!-- page heading -->
+      		<div class="page-header">
+        		<h1>My photo albums </h1>
+      		</div>    
+
+     	 	<!-- Select nav item for a different view -->
+      		<ul class="nav nav-tabs">
+            	<li role="" class="active"><a href="#" id="albums-tab" >Albums</a></li>
+            	<li role=""><a href="#" id="photos-tab">Photos</a></li>
+            	<li role=""><a href="#" id="slideshow-tab">Slideshow</a></li>
+         	 </ul>
+
+      		<br/><br/>
+
+
+      		<!-- the content added will come from javascript template script  -->
+      		<div id="content"  class="container-fluid"  role="main">
+      		</div>
+  		</div><!--- / end of content container ---->
+
+  		<!--- album-template script ---->
+
 		<script id="album-template" type="text/x-handlebars-template">
 			
 			<div class="row">
 				{{#each images}}
 				<div class="col-xs-12 col-md-3">
 					<a href="photo.html">
-						<div class="thumbnail">
-							<img class="crop-img" src="{{src}}" alt=""/>
+						<div class="thumbnail" data-id="{{@index}}">
+							<img class="crop-img" src="{{thumbnail}}" alt=""/>
 							<div class="author">
 								<h3>{{title}}</h3>
 								<p>{{author}}</p>
@@ -30,7 +59,7 @@
 				{{/each}}
 			</div> // end of row
 		</script>
-		
+
 	</body>
 
 	<script type="text/javascript">

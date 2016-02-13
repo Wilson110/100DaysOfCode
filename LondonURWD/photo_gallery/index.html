@@ -55,9 +55,27 @@
 							</div>
 						</div>
 					</a>
-				</div> //end of column
+				</div> // end of column
 				{{/each}}
 			</div> // end of row
+		</script>
+
+		<!--- photos-template script ---->
+		<script id="photos-template" type="text/x-handlebars-template">
+  			<div class="row">
+    			{{#each photos}}
+    			<div class="col-xs-12 col-md-3"> 
+     				<div class="photo-thumbnail"  data-id="{{@index}}">
+        				<img class="crop-img" src="{{src}}" alt=""/> 
+          
+         				<div class="caption">
+            				<h3>{{title}}</h3>
+            				<p>{{description}}</p>
+         				</div>
+      				</div>
+    			</div> // end of  of column
+    			{{/each}}
+  			</div> // end of row
 		</script>
 
 	</body>

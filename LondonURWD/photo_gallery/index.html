@@ -98,6 +98,29 @@
      			</div> // end of colum
   			</div> // end of row
 		</script>
+
+		<!--- search box script ---->
+		<script>
+			$('#searchbox').keypress(function(e) {
+				if (e.which == 13) {
+					var search_text = $('#searchbox').val();
+					var filteredData = {
+						images: data.images.filter(function(d){
+							if (d.title.search(search_text)> -1){
+								return true;
+							}
+							if (d.author.search(search_text)> -1){
+								return true;
+							}
+							return false;
+						})
+					};
+
+					var html = template(filteredData);
+					$('#content').html(html);
+				}
+			});
+		</script>
 		
 	</body>
 

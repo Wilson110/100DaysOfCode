@@ -30,12 +30,19 @@
       		<!-- page heading -->
       		<div class="page-header">
         		<h1>My photo albums </h1>
-      		</div>    
+      		</div> 
+
+      		<! ---- searchbox ---->
+      		<div class="navbar-form navbar-right">
+      			<input id="searchbox" type="text" class="form-control" placeholder="Search...">
+    		</div>
+   
 
      	 	<!-- Select nav item for a different view -->
       		<ul class="nav nav-tabs">
             	<li role="" class="active"><a href="#" id="albums-tab" >Albums</a></li>
             	<li role=""><a href="#" id="photos-tab">Photos</a></li>
+            	<li role="" id="modalbtn"><a href="#">Modal</a></li
             	<li role=""><a href="#" id="slideshow-tab">Slideshow</a></li>
          	 </ul>
 
@@ -43,8 +50,10 @@
 
 
       		<!-- the content added will come from javascript template script  -->
-      		<div id="content"  class="container-fluid"  role="main">
-      		</div>
+      		<div id="content"  class="container-fluid"  role="main"></div>
+
+      		<div id="modal-container" ></div>
+
   		</div><!--- / end of content container ---->
 
   		<!--- album-template script ---->
@@ -85,6 +94,20 @@
     			{{/each}}
   			</div> // end of row
 		</script>
+
+		<!--- modal-template script ---->
+		<script id="modal-template" type="text/x-handlebars-template">
+      		<div id="imageModal" class="modal fade" role="dialog">
+        		<div class="modal-dialog"  style="width:800">
+          			<div class="modal-content">
+            			<div class="modal-body">
+              				<img style="width:100%" src="{{src}}"/>
+            			</div>
+          			</div>
+
+       			</div>
+     		 </div>
+    	</script>
 
 		<!--- photo-template script ---->
 		<script id="photo-template" type="text/x-handlebars-template">

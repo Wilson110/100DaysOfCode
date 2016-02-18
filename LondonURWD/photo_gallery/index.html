@@ -10,13 +10,14 @@
 
 		<!--- scripts ---->
 		<script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 		<script src="js/handlebars-v3.0.3.js"></script>
-		<script src="js/bootstrap.min.js"></script>
 
 		<!--- custom scripts ---->
 
+    <script src="js/albums.js"></script>
 		<script src="js/gallery.js"></script>
-		<script src="js/albums.js"></script>
+		
 
 		<!--- Bootstrap and cusom CSS ---->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +38,6 @@
       		<ul class="nav nav-tabs">
             	<li role="" class="active"><a href="#" id="albums-tab" >Albums</a></li>
             	<li role=""><a href="#" id="photos-tab">Photos</a></li>
-            	<li role="" id="modalbtn"><a href="#">Modal</a></li
             	<li role=""><a href="#" id="slideshow-tab">Slideshow</a></li>
          	 </ul>
 
@@ -52,9 +52,9 @@
 
   		<!--- album-template script ---->
 
-		<script id="album-template" type="text/x-handlebars-template">
+		<script id="albums-template" type="text/x-handlebars-template">
 			<div class="row">
-				{{#each images}}
+				{{#each albums}}
 				<div class="col-xs-12 col-md-3">
 					<a href="photo.html">
 						<div class="thumbnail" data-id="{{@index}}">
@@ -65,9 +65,9 @@
 							</div>
 						</div>
 					</a>
-				</div> // end of column
+				</div> <!--- end of column --->
 				{{/each}}
-			</div> // end of row
+			</div> <!---end of row --->
 		</script>
 
 		<!--- photos-template script ---->
@@ -83,9 +83,9 @@
             				<p>{{description}}</p>
          				</div>
       				</div>
-    			</div> // end of column
+    			</div> <!-- end of column -->
     			{{/each}}
-  			</div> // end of row
+  			</div> <!-- end of row -->
 		</script>
 
 		<!--- photo-template script ---->
@@ -97,14 +97,14 @@
             			<h3>{{title}}</h3>
             			<p>{{description}}</p>
         			</div>
-     			</div> // end of colum
-  			</div> // end of row
+     			</div> <!-- end of column -->
+  			</div> <!-- end of row -->
 		</script>
 
 		<script id="slideshow-template" type="text/x-handlebars-template">
   			<div class="row">
     			<div class="col-md-6">
-    				// traditional Bootstrap carousel setup
+    				<!-- traditional bootstrap carousel setup -->
       				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         				<ol class="carousel-indicators">
           					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -112,7 +112,7 @@
           					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
         				</ol>
   
-       					// this is the wrapper for the sides
+       					<!-- this is the wrapper for the sides -->
         				<div class="carousel-inner" role="listbox">
           				{{#each photos}}
             				<div class="item {{#if @first}}active{{/if}}">
@@ -120,11 +120,11 @@
             					<div class="carousel-caption">
               						Image caption
             					</div>
-          					</div> // end of carousel item
+          					</div> <!-- end of carousel item -->
           				{{/each}}
-        				</div>// end of carousel-inner
+        				</div><!-- end of carousel-inner -->
 
-        				// controls for the carousel
+        				<!-- controls for the carousel -->
         				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
           					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
          					<span class="sr-only">Previous</span>
@@ -133,9 +133,9 @@
           					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           					<span class="sr-only">Next</span>
         				</a>
-      				</div>// end of carousel-example-generic
-    			</div> // end of column
-  			</div> // end of row
+      				</div><!-- end of carousel-example-generic -->
+    			</div> <!--end of column-->
+  			</div> <!--end of row-->
 		</script>
 		
 	</body>

@@ -31,11 +31,6 @@
       		<div class="page-header">
         		<h1>My photo albums </h1>
       		</div> 
-
-      		<! ---- searchbox ---->
-      		<div class="navbar-form navbar-right">
-      			<input id="searchbox" type="text" class="form-control" placeholder="Search...">
-    		</div>
    
 
      	 	<!-- Select nav item for a different view -->
@@ -52,14 +47,12 @@
       		<!-- the content added will come from javascript template script  -->
       		<div id="content"  class="container-fluid"  role="main"></div>
 
-      		<div id="modal-container" ></div>
 
   		</div><!--- / end of content container ---->
 
   		<!--- album-template script ---->
 
 		<script id="album-template" type="text/x-handlebars-template">
-			
 			<div class="row">
 				{{#each images}}
 				<div class="col-xs-12 col-md-3">
@@ -95,20 +88,6 @@
   			</div> // end of row
 		</script>
 
-		<!--- modal-template script ---->
-		<script id="modal-template" type="text/x-handlebars-template">
-      		<div id="imageModal" class="modal fade" role="dialog">
-        		<div class="modal-dialog"  style="width:800">
-          			<div class="modal-content">
-            			<div class="modal-body">
-              				<img style="width:100%" src="{{src}}"/>
-            			</div>
-          			</div>
-
-       			</div>
-     		 </div>
-    	</script>
-
 		<!--- photo-template script ---->
 		<script id="photo-template" type="text/x-handlebars-template">
   			<div class="row">
@@ -122,27 +101,41 @@
   			</div> // end of row
 		</script>
 
-		<!--- search box script ---->
-		<script>
-			$('#searchbox').keypress(function(e) {
-				if (e.which == 13) {
-					var search_text = $('#searchbox').val();
-					var filteredData = {
-						images: data.images.filter(function(d){
-							if (d.title.search(search_text)> -1){
-								return true;
-							}
-							if (d.author.search(search_text)> -1){
-								return true;
-							}
-							return false;
-						})
-					};
+		<script id="slideshow-template" type="text/x-handlebars-template">
+  			<div class="row">
+    			<div class="col-md-6">
+    				// traditional Bootstrap carousel setup
+      				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        				<ol class="carousel-indicators">
+          					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        				</ol>
+  
+       					// this is the wrapper for the sides
+        				<div class="carousel-inner" role="listbox">
+          				{{#each photos}}
+            				<div class="item {{#if @first}}active{{/if}}">
+             					<img class="carousel-img" src="{{src}}" alt=""/> 
+            					<div class="carousel-caption">
+              						Image caption
+            					</div>
+          					</div> // end of carousel item
+          				{{/each}}
+        				</div>// end of carousel-inner
 
-					var html = template(filteredData);
-					$('#content').html(html);
-				}
-			});
+        				// controls for the carousel
+        				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+         					<span class="sr-only">Previous</span>
+        				</a>
+        				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          					<span class="sr-only">Next</span>
+        				</a>
+      				</div>// end of carousel-example-generic
+    			</div> // end of column
+  			</div> // end of row
 		</script>
 		
 	</body>

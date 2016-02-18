@@ -19,13 +19,14 @@
 
 			<!-- the page title -->
     		<div class="page-header">
-      			<h1>Searchbox</h1>
+      			<h1>NASA Search</h1>
     		</div>
 
     		<div class="navbar-form navbar-right">
       			<input id="searchbox" type="text" class="form-control" placeholder="Search...">
     		</div>
 
+    		<!-- these don't do anything -->
     		<ul class="nav nav-tabs">
           		<li role=""  id="detailsbtn"><a href="#">Details</a></li>
           		<li role="" id="modalbtn"><a href="#">Modal</a></li>
@@ -141,5 +142,63 @@
 				}   
     		]};
 
+    		var html=template(data);
+    		// Step 1: place the template in the html doc
+    		$('#content').html(html);
+
+    		// Step 2: any image clicked on will display in the modal
+    		function displayModal(event){
+        	// Step 3: gets the index of the image in the array
+        		var imageNumber = $(this).data("id");
+        		// Step 4: render the image in the template
+        		var html    = modal_template(data.images[imageNumber]);
+        		// Step 5: put the modal template in the html doc
+        		$('#modal-container').html(html);
+        		// Step 6: show the modal
+        		$("#imageModal").modal('show');
+    		}
+
+    		// Step 7: display the modal when you click on a thumbnail
+    		$('.thumbnail').click(displayModal);
+
+    		// the searchbox function
+    		$('#searchbox').keypress(function (e) {
+
+      		// Step 1: check if the enter key was pressed. Enter is key number 13
+     		 if (e.which == 13) {
+        		// Step 2: get the search text which is the contents of the search box
+        		var search_text = $('#searchbox').val();
+
+        		// print the search box (for debugging)
+        		console.log(search_text)
+
+        		// Step 3: create a new array of data with only the data that contains the search string
+        		var filteredData = {
+
+          			// Step 4:  use the filter function which returns a new array that contains only the elements of data.images for which the function returns true
+          			images: data.images.filter(function(d){
+            
+            		// Step 5: return true if the title contains the search text
+            		if (d.title.search(search_text) > -1){
+              			return true;
+            		}
+            		// Step 6: return true if the author contains the search text
+            		if (d.author.search(search_text) > -1){
+              			return true;
+            		}
+            		// Step 7:  if we reach here it means we haven't  found a match so return false
+            		return false;
+         			 })
+        		};
+        
+        		// Step 8: pass the newly filtered data into the template to generate new html
+        		var html    = template(filteredData);
+        		$('#content').html(html);
+
+        		// Step 9: display the modal when you click on a thumbnail
+        		$('.thumbnail').click(displayModal);
+      		}
+    	});
+		</script>
 	</body>
 </html>

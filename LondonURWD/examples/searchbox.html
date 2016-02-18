@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!---- libraries ---->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/handlebars-v3.0.3.js"></script>
+
+		<!-- bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- stylesheets -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/gallery.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+
+			<!-- the page title -->
+    		<div class="page-header">
+      			<h1>Searchbox</h1>
+    		</div>
+
+    		<div class="navbar-form navbar-right">
+      			<input id="searchbox" type="text" class="form-control" placeholder="Search...">
+    		</div>
+
+    		<ul class="nav nav-tabs">
+          		<li role=""  id="detailsbtn"><a href="#">Details</a></li>
+          		<li role="" id="modalbtn"><a href="#">Modal</a></li>
+   			 </ul> 
+    		<br/><br/> 
+
+    		<!-- empty for now but will be replaced with content in templates -->
+    		<div id="content"  class="container-fluid"  role="main"></div>
+
+    		<!-- empty for now but will be replaced with content from modal template -->
+    		<div id="modal-container"></div>
+
+		</div><!-- end of container -->
+
+		<script id="album-template" type="text/x-handlebars-template">
+
+      		<div class="row">
+        		{{#each images}} 
+        		<div class="col-xs-12 col-md-3"> 
+         			<div class="thumbnail" data-id="{{@index}}">
+            			<img class="crop-img" src="{{src}}" alt=""/> 
+             			<div class="author">
+                			<h3> {{title}} </h3>
+                			<p> {{author}} </p>
+             			</div>
+          			</div>
+          		</div> <!-- end of column -->
+          		{{/each}}
+   		  	</div> <!-- end of row -->
+   		 </script>
+
+    	<script id="modal-template" type="text/x-handlebars-template">
+      		<div id="imageModal" class="modal fade" role="dialog">
+        		<div class="modal-dialog"  style="width:800">
+          			<div class="modal-content">
+            			<div class="modal-body">
+              				<img  style="width:100%" src="{{src}}"/>
+            			</div>
+          			</div>
+        		</div>
+      		</div>
+    	</script>
+
+    	 <script type="text/javascript">
+    		// get the source code for our two template and compile them to handlebars
+    		var source   = $("#album-template").html();
+    		var template = Handlebars.compile(source);
+
+    		source   = $("#modal-template").html();
+   			var modal_template = Handlebars.compile(source);
+
+	</body>
+</html>

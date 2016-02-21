@@ -36,8 +36,8 @@
 
      	 	<!-- Select nav item for a different view -->
       		<ul class="nav nav-tabs">
-            	<li role="" class="active"><a href="#" id="albums-tab">Collections</a></li>
-            	<li role=""><a href="#" id="photos-tab">Animals</a></li>
+            	<li role="" class="active"><a href="#" id="collections-tab">Collections</a></li>
+            	<li role=""><a href="#" id="photos-tab">Animal Photos</a></li>
             	<li role=""><a href="#" id="slideshow-tab">Slideshow</a></li>
          	 </ul>
 
@@ -49,5 +49,23 @@
 
 
   	</div><!--- / end of content container ---->
+
+  	<!--- collections-template script ---->
+
+	<script id="collections-template" type="text/x-handlebars-template">
+		<div class="row">
+			{{#each albums}}
+			<div class="col-xs-12 col-md-3">
+				<div class="album-thumbnail" data-id="{{@index}}">
+					<img class="crop-img" src="{{thumbnail}}" alt=""/>
+					<div class="caption">
+						<h3>{{name}}</h3>
+						<p>{{photos.length}} photos</p>
+					</div>
+				</div>
+			</div> <!--- end of column --->
+			{{/each}}
+		</div> <!---end of row --->
+	</script>
 
 </body>

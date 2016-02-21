@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Photo Gallery</title>
+    <title>Animal Exhibit</title>
 
 	<!-- libraries and js files -->
 
@@ -26,6 +26,28 @@
 
 <body>
 
-    <!-- put your HTML here -->
+    <div class="container">
+
+      		<!-- page heading -->
+      		<div class="page-header">
+        		<h1>Animal Exhibit</h1>
+      		</div> 
+   
+
+     	 	<!-- Select nav item for a different view -->
+      		<ul class="nav nav-tabs">
+            	<li role="" class="active"><a href="#" id="albums-tab">Collections</a></li>
+            	<li role=""><a href="#" id="photos-tab">Animals</a></li>
+            	<li role=""><a href="#" id="slideshow-tab">Slideshow</a></li>
+         	 </ul>
+
+      		<br/><br/>
+
+
+      		<!-- the content added will come from javascript template script  -->
+      		<div id="content"  class="container-fluid"  role="main"></div>
+
+
+  	</div><!--- / end of content container ---->
 
 </body>

@@ -111,4 +111,48 @@
   		</div> <!-- end of row -->
 	</script>
 
+	<!-- slideshow template script -->
+	<script id="slideshow-template" type="text/x-handlebars-template">
+  			<div class="row">
+    			<div class="col-md-6">
+    				<!-- traditional bootstrap carousel setup -->
+      				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        				<ol class="carousel-indicators">
+          					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        				</ol>
+  
+       					<!-- this is the wrapper for the sides -->
+        				<div class="carousel-inner" role="listbox">
+          					{{#each animals}}
+            				<div class="item {{#if @first}}active{{/if}}">
+             					<img class="carousel-img" src="{{image1}}" alt=""/> 
+            					<div class="carousel-caption">
+              						Image caption
+            					</div>
+          					</div> <!-- end of carousel item for image1 -->
+          					<div class="item {{#if @first}}active{{/if}}">
+             					<img class="carousel-img" src="{{image2}}" alt=""/> 
+            					<div class="carousel-caption">
+              						Image caption
+            					</div>
+          					</div> <!-- end of carousel item for image2 -->
+          					{{/each}}
+        				</div><!-- end of carousel-inner -->
+
+        				<!-- controls for the carousel -->
+        				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+         					<span class="sr-only">Previous</span>
+        				</a>
+        				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          					<span class="sr-only">Next</span>
+        				</a>
+      				</div><!-- end of carousel-example-generic -->
+    			</div> <!--end of column-->
+  			</div> <!--end of row-->
+		</script>
+
 </body>

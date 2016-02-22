@@ -1,8 +1,8 @@
 // this file contains the data we need for the gallery
-// The main object, "gallery" contains an array of album
-// each album contains an array of photos
-// (plus a name and a thumbnail image)
-// The photos contain an image src and some metadata
+// The main object, "animals_data" contains the category array
+// each category contains an array of animals
+// (plus a title and a thumbnail image)
+// The animals array contain an image src and some metadata
 
 var animals_data = {
 	category : [

@@ -7,7 +7,7 @@ var collections_template, animals_template, animal_template, slideshow_template;
 // Step 2: Define 2 variables and assign them and index of 0 in the "gallery" object and "photos" array within it
 // This will be the current, or default data displayed
 // These will be used later on 
-var current_collection = animal_data.category[0];
+var current_collection = animals_data.category[0];
 var current_animal = current_collection.animals[0];
 
 // Step 3: Create a helper function that will attach the data to the template, and display in the "content" HTML <div>
@@ -84,7 +84,7 @@ $(document).ready(function(){
 
 	$("#slideshow-tab").click(function () {
 
-		showTemplate(slideshow_template, current_album);
+		showTemplate(slideshow_template, current_collection);
 		
 		$(".nav-tabs .active").removeClass("active");
 

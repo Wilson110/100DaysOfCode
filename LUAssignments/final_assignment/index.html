@@ -37,7 +37,7 @@
      	 	<!-- Select nav item for a different view -->
       		<ul class="nav nav-tabs">
             	<li role="" class="active"><a href="#" id="collections-tab">Collections</a></li>
-            	<li role=""><a href="#" id="photos-tab">Animal Photos</a></li>
+            	<li role=""><a href="#" id="animals-tab">Animal Photos</a></li>
             	<li role=""><a href="#" id="slideshow-tab">Slideshow</a></li>
          	 </ul>
 
@@ -54,18 +54,48 @@
 
 	<script id="collections-template" type="text/x-handlebars-template">
 		<div class="row">
-			{{#each albums}}
+			{{#each category}}
 			<div class="col-xs-12 col-md-3">
-				<div class="album-thumbnail" data-id="{{@index}}">
+				<div class="collection-thumbnail" data-id="{{@index}}">
 					<img class="crop-img" src="{{thumbnail}}" alt=""/>
 					<div class="caption">
-						<h3>{{name}}</h3>
-						<p>{{photos.length}} photos</p>
+						<h3>{{title}}</h3>
+						<p>{{animals.length}} photos</p>
 					</div>
 				</div>
 			</div> <!--- end of column --->
 			{{/each}}
 		</div> <!---end of row --->
+	</script>
+
+	<!--- animals-template script ---->
+	<script id="animals-template" type="text/x-handlebars-template">
+  		<div class="row">
+    		{{#each animals}}
+    		<div class="col-xs-12 col-md-3"> 
+     			<div class="animal-thumbnail"  data-id="{{@index}}">
+        			<img class="crop-img" src="{{image1}}" alt=""/> 
+         			<div class="caption">
+            			<h3>{{name}}</h3>
+            			<p>{{description}}</p>
+         			</div>
+      			</div>
+    		</div> <!-- end of column -->
+    		{{/each}}
+  		</div> <!-- end of row one -->
+  		<div class="row">
+    		{{#each animals}}
+    		<div class="col-xs-12 col-md-3"> 
+     			<div class="animal-thumbnail"  data-id="{{@index}}">
+        			<img class="crop-img" src="{{image2}}" alt=""/> 
+         			<div class="caption">
+            			<h3>{{name}}</h3>
+            			<p>{{description}}</p>
+         			</div>
+      			</div>
+    		</div> <!-- end of column -->
+    		{{/each}}
+  		</div> <!-- end of row two -->
 	</script>
 
 </body>

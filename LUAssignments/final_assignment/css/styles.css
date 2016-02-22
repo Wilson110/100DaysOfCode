@@ -1,1 +1,33 @@
-/* put your css code here */
+.photo_list {
+	width: 100%;
+	max-height:200px;
+	padding: 10px;
+}
+.single_photo {
+	width: 75%;
+}
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+}
+
+.large-img{
+  max-width:100%;
+}
+
+.carousel-img{
+    margin: auto;
+    padding: 10px;
+    max-height:300px;
+    max-width:100%;
+
+}
+
+.thumbnail,.nav, .large-img, .crop-img{
+  border-radius: 25px;
+  padding-top:5px;
+}
+
+.thumbnail,.nav {
+  box-shadow: 10px 10px 5px #888888;
+}

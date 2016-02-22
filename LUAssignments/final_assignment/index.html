@@ -19,7 +19,7 @@
 
 	<!-- Bootstrap and custom css files -->
 
-	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap_blue.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 
 </head>
@@ -100,7 +100,7 @@
 	<!-- slideshow template script -->
 	<script id="slideshow-template" type="text/x-handlebars-template">
   			<div class="row">
-    			<div class="col-md-6">
+    			<div class="col-md-12">
     				<!-- traditional bootstrap carousel setup -->
       				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         				<ol class="carousel-indicators">
@@ -115,15 +115,9 @@
             				<div class="item {{#if @first}}active{{/if}}">
              					<img class="carousel-img" src="{{image1}}" alt=""/> 
             					<div class="carousel-caption">
-              						Image caption
+              						{{name}}
             					</div>
-          					</div> <!-- end of carousel item for image1 -->
-          					<div class="item {{#if @first}}active{{/if}}">
-             					<img class="carousel-img" src="{{image2}}" alt=""/> 
-            					<div class="carousel-caption">
-              						Image caption
-            					</div>
-          					</div> <!-- end of carousel item for image2 -->
+          					</div> <!-- end of carousel item -->
           					{{/each}}
         				</div><!-- end of carousel-inner -->
 

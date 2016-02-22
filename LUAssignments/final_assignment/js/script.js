@@ -36,46 +36,46 @@ $(document).ready(function(){
 	
 
 	//Step 6: Create a click function for #albums-tab from the HTML
-	$("#albums-tab").click(function(){
+	$("#collections-tab").click(function(){
 		// use the helper function to display albums_template compiled code and data from gallery object
-		showTemplate(albums_template, gallery);
+		showTemplate(collections_template, animals_data);
 		// remove .active class from all other nav-tabs
 		$(".nav-tabs .active").removeClass("active");
 		// add .active class to the #albums-tab
-		$("#albums-tab").addClass("active");
+		$("#collections-tab").addClass("active");
 		// create a callback click function for the album thumbnail
-		$(".album-thumbnail").click(function(){
+		$(".collection-thumbnail").click(function(){
 			// grab data index and assign it to a variable
 			var index = $(this).data("id");
 			// assign data from gallery object to the variable "current_album"
 			// index is used as a parameter, evaluates to 0
-			current_album = gallery.albums[index];
+			current_collection = animals_data.category[index];
 			// use helper function to display photos_template and data now assigned to current_album
-			showTemplate(photos_template, current_album);
+			showTemplate(animals_template, current_collection);
 			// create same click function for the photo thumbnail
 			// assign data to a variable and use helper function to display it
-			$(".photo-thumbnail").click(function(){
+			$(".animal-thumbnail").click(function(){
 				var index = $(this).data("id");
 				// set the current photo to selected (this) photo
-				current_photo = current_album.photos[index];
+				current_animal = current_collection.animals[index];
 				//  display the single photo_template using helper function
-				showTemplate(photo_template, current_photo);
+				showTemplate(animal_template, current_animal);
 			});
 		});
 	});
 	// Repeat steps 6 and substeps for all other tabs
-	$("#photos-tab").click(function () {
+	$("#animals-tab").click(function () {
 
-		showTemplate(photos_template, current_album);
+		showTemplate(animals_template, current_collection);
 
 		$(".nav-tabs .active").removeClass("active");
 		
-		$("#photos-tab").addClass("active");
+		$("#animals-tab").addClass("active");
 
-		$(".photo-thumbnail").click(function (){
+		$(".animal-thumbnail").click(function (){
 			var index = $(this).data("id");
-			current_photo = current_album.photos[index];
-			showTemplate(photo_template, current_photo);
+			current_animal = current_collection.animals[index];
+			showTemplate(animal_template, current_animal);
 		});
 	});
 
@@ -92,6 +92,6 @@ $(document).ready(function(){
 	});
 
 	// start the page by showing the albums view upon click
-	$("#albums-tab").click();
+	$("#collections-tab").click();
 	
 });

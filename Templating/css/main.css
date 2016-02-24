@@ -40,6 +40,20 @@ aside {
 ul li {
 	display: inline;
 	padding-right: 30px;
+	color: #003399;
+}
+ul li a {
+	color: #003399;
+	text-decoration: none;
+}
+ul li a:hover {
+	text-decoration: underline;
+}
+.active {
+	background-color: #003399;
+	width: 65px;
+	color: #fff;
+	font-weight: bold;
 }
 footer {
 	clear: both;

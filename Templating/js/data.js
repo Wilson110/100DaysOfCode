@@ -1,45 +1,46 @@
 //this file contains the data needed for the templates
 // 15 cities with the most high-tech jobs
+// source: http://247wallst.com/special-report/2015/03/13/15-cities-with-the-most-high-tech-jobs/6/
 
 var city_data = {
 	city : [
 		{
-			name : "The South",
+			name : "(Add area)",
 			thumbnail :
 			info : [
 				{
 					src :
-					title : "1"
-					description : 
+					title : "1. San Jose-Sunnyvale-Santa Clara, CA",
+					description : "Adavnced industries, share of employment: 30.0%. Share of output: 47.5%"
 				},
 				{
 					src :
-					title : "2"
-					description : 
+					title : "2. Seattle-Tacoma-Bellevue, WA",
+					description : "Advanced industries, share of employment: 16.0%. Share of output: 32.6%" 
 				},
 				{
 					src :
-					title : "3"
-					description : 
+					title : "3. Wichita, KS",
+					description : "Advanced industries, share of employment: 15.5%. Share of output: 27.4%"
 				},
 				{
 					src :
-					title : "4"
-					description : 
+					title : "4. Detroit-Warren-Dearboarn, MI",
+					description : "Advanced industries, share of employment: 14.8%. Share of output: 24.8%"
 				},
 				{
 					src :
-					title : "5"
-					description : 
+					title : "5. San Francisco-Oakland-Hayward, CA",
+					description : "Advanced industries, share of employment: 14.0%. Share of output: 24.7%"
 				},
 				{
 					src :
-					title : "6"
-					description : 
+					title : "6. Washington-Arlington-Alexandria, DMV",
+					description : "Advanced industries, share of employment: 13.7%. Share of output: 19.9%"
 				},
 				{
 					src :
-					title : "7. Palm-Bay-Melbourne-Titusville, FL"
+					title : "7. Palm-Bay-Melbourne-Titusville, FL",
 					description : "Advanced industries, share of employment: 13.4%. Share of output: 21.7%"
 				},
 				{

@@ -6,7 +6,6 @@ var city_data = {
 	city : [
 		{
 			region : "West",
-			thumbnail :
 			info : [
 				{
 					src :
@@ -42,7 +41,6 @@ var city_data = {
 		},
 		{
 			region : "Midwest",
-			thumbnail : 
 			info : [
 				{
 					src :
@@ -58,7 +56,6 @@ var city_data = {
 		},
 		{
 			region : "East Coast",
-			thumbnail :
 			info : [
 				{
 					src :
@@ -68,8 +65,7 @@ var city_data = {
 			]
 		},
 		{
-			region : "Northwest",
-			thumbnail : 
+			region : "Northwest", 
 			info : [
 				{
 					src :
@@ -80,7 +76,6 @@ var city_data = {
 		},
 		{
 			region : "Appalachia",
-			thumbnail :
 			info : [
 				{
 					src :
@@ -96,7 +91,6 @@ var city_data = {
 		},
 		{
 			region : "South",
-			thumbnail : 
 			info : [
 				{
 					src :

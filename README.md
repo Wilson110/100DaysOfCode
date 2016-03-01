@@ -25,7 +25,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 36](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD/photo_gallery/js/albums.js) | [day 37](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD/photo_gallery/js/gallery.js) | [day 38](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD/examples/searchbox.html) | [day 39](https://github.com/Wilcott321/100DaysOfCode/tree/master/LondonURWD/photo_gallery/index.html) | [day 40](https://github.com/Wilcott321/100DaysOfCode/tree/master/LUAssignments/final_assignment) | [day 41](https://github.com/Wilcott321/100DaysOfCode/tree/master/LUAssignments/final_assignment) |
 
-| [day 42](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating) | [day 43](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/data.js) | [day 44](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/data.js) | [day 45](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/data.js) | day 46 | day 47 |
+| [day 42](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating) | [day 43](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/data.js) | [day 44](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/data.js) | [day 45](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/data.js) | [day 46](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/index.html) | day 47 |
 
 | day 48 | day 49 | day 50 | day 51 | day 52 | day 53 |
 

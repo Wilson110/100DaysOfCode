@@ -55,10 +55,19 @@ ul li a:hover {
 	color: #fff;
 	font-weight: bold;
 }
+/* Figures and images */
 .crop-img {
 	width:300px;
 	height: 200px;
 }
+div.figures {
+	overflow: hidden;
+}
+div.figures figures {
+	display: inline-block;
+	border: 1px solid #003399;
+}
+/* footer */
 footer {
 	clear: both;
 }

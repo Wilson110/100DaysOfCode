@@ -3,10 +3,10 @@
 // source: http://247wallst.com/special-report/2015/03/13/15-cities-with-the-most-high-tech-jobs/6/
 
 var city_data = {
-	city : [
+	info : [
 		{
 			region : "West",
-			info : [
+			city : [
 				{
 					src : "images/sanjose.jpg",
 					title : "1. San Jose-Sunnyvale-Santa Clara, CA",
@@ -41,7 +41,7 @@ var city_data = {
 		},
 		{
 			region : "Midwest",
-			info : [
+			city : [
 				{
 					src : "images/wichita.jpg",
 					title : "3. Wichita, KS",
@@ -56,7 +56,7 @@ var city_data = {
 		},
 		{
 			region : "East Coast",
-			info : [
+			city : [
 				{
 					src : "images/boston.jpg",
 					title : "8. Boston-Cambridge-Newton, MA-NH",
@@ -66,7 +66,7 @@ var city_data = {
 		},
 		{
 			region : "Northwest", 
-			info : [
+			city : [
 				{
 					src : "images/seattle.jpg",
 					title : "2. Seattle-Tacoma-Bellevue, WA",
@@ -76,7 +76,7 @@ var city_data = {
 		},
 		{
 			region : "Appalachia",
-			info : [
+			city : [
 				{
 					src : "images/dc.jpg",
 					title : "6. Washington-Arlington-Alexandria, DMV",
@@ -91,7 +91,7 @@ var city_data = {
 		},
 		{
 			region : "South",
-			info : [
+			city : [
 				{
 					src : "images/palmbay.jpg",
 					title : "7. Palm-Bay-Melbourne-Titusville, FL",

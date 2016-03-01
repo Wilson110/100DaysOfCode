@@ -34,13 +34,15 @@
 		<!--- list-template script -->
 		<script id="list-template" type="text/x-handlebars-template">
 			{{#each info}}
-			<figure id="col" class="region-thumbnail" data-id="{{@index}}">
-				<img class="crop-img" src="{{thumbnail}}" alt="region"/>
-				<figcaption>
-					<h3>{{region}}</h3>
-					<p>{{city.length}} cities<p>
-				</figcaption>
-			</figure>
+			<div class="figures">
+				<figure id="col" class="region-thumbnail" data-id="{{@index}}">
+					<img class="crop-img" src="{{thumbnail}}" alt="region"/>
+					<figcaption>
+						<h3>{{region}}</h3>
+						<p>{{city.length}} cities<p>
+					</figcaption>
+				</figure>
+			</div>
 			{{/each}}
 		</script>
 

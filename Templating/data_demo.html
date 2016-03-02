@@ -4,6 +4,11 @@
 		<title>Data Demo</title>
 
 		<link rel="stylesheet" href="css/main.css">
+
+		<!--- scripts ---->
+		<script src="js/handlebars-v3.0.3.js"></script>
+		<script src="js/data.js"></script>
+		<script src="js/script.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -12,7 +17,7 @@
 				<nav>
 					<ul>
 						<li><a href="#" id="list-template">The List</a></li>
-						<li><a href="#" id="city-template">City Info</a></li>
+						<li><a href="#" id="cities-template">City Info</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -35,7 +40,7 @@
 		<script id="list-template" type="text/x-handlebars-template">
 			{{#each info}}
 			<div class="figures">
-				<figure id="col" class="region-thumbnail" data-id="{{@index}}">
+				<figure class="region-thumbnail" data-id="{{@index}}">
 					<img class="crop-img" src="{{thumbnail}}" alt="region"/>
 					<figcaption>
 						<h3>{{region}}</h3>
@@ -46,8 +51,19 @@
 			{{/each}}
 		</script>
 
-		<!--- scripts ---->
-		<script src="js/handlebars-v3.0.3.js"></script>
-		<script src="js/data.js"></script>
+		<!--- cities-template script ---->
+		<script id="cities-template" type="text/x-handlebars-template">
+			{{#each city}}
+			<div class="figures">
+				<figure class="city-thumbnail" data-id="{{@index}}">
+					<img class="crop-img" src="{{src}}" alt="city"/>
+					<figcaption>
+						<h3>{{title}}</h3>
+					</figcaption>
+				</figure>
+			</div>
+			{{/each}}
+		</script>
+
 	</body>
 </html>

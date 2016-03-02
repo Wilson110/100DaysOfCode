@@ -57,8 +57,12 @@ ul li a:hover {
 }
 /* Figures and images */
 .crop-img {
-	width:300px;
+	width: 400px;
 	height: 200px;
+}
+.large-img {
+	width: 600px;
+	height: 300px;
 }
 div.figures {
 	overflow: hidden;

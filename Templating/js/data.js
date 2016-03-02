@@ -6,6 +6,7 @@ var city_data = {
 	info : [
 		{
 			region : "West",
+			thumbnail : "images/west.jpg",
 			city : [
 				{
 					src : "images/sanjose.jpg",
@@ -41,6 +42,7 @@ var city_data = {
 		},
 		{
 			region : "Midwest",
+			thumbnail : "images/midwest.jpg",
 			city : [
 				{
 					src : "images/wichita.jpg",
@@ -56,6 +58,7 @@ var city_data = {
 		},
 		{
 			region : "East Coast",
+			thumbnail : "images/east.jpg",
 			city : [
 				{
 					src : "images/boston.jpg",
@@ -66,6 +69,7 @@ var city_data = {
 		},
 		{
 			region : "Northwest", 
+			thumbnail : "images/northwest.jpg",
 			city : [
 				{
 					src : "images/seattle.jpg",
@@ -76,6 +80,7 @@ var city_data = {
 		},
 		{
 			region : "Appalachia",
+			thumbnail : "images/appalachia.jpg",
 			city : [
 				{
 					src : "images/dc.jpg",
@@ -91,6 +96,7 @@ var city_data = {
 		},
 		{
 			region : "South",
+			thumbnail : "images/south.jpg",
 			city : [
 				{
 					src : "images/palmbay.jpg",

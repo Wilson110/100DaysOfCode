@@ -7,7 +7,7 @@ var city_data = {
 		{
 			region : "West",
 			thumbnail : "images/west.jpg",
-			city : [
+			cities : [
 				{
 					src : "images/sanjose.jpg",
 					title : "1. San Jose-Sunnyvale-Santa Clara, CA",
@@ -43,7 +43,7 @@ var city_data = {
 		{
 			region : "Midwest",
 			thumbnail : "images/midwest.jpg",
-			city : [
+			cities : [
 				{
 					src : "images/wichita.jpg",
 					title : "3. Wichita, KS",
@@ -59,7 +59,7 @@ var city_data = {
 		{
 			region : "East Coast",
 			thumbnail : "images/east.jpg",
-			city : [
+			cities : [
 				{
 					src : "images/boston.jpg",
 					title : "8. Boston-Cambridge-Newton, MA-NH",
@@ -70,7 +70,7 @@ var city_data = {
 		{
 			region : "Northwest", 
 			thumbnail : "images/northwest.jpg",
-			city : [
+			cities : [
 				{
 					src : "images/seattle.jpg",
 					title : "2. Seattle-Tacoma-Bellevue, WA",
@@ -81,7 +81,7 @@ var city_data = {
 		{
 			region : "Appalachia",
 			thumbnail : "images/appalachia.jpg",
-			city : [
+			cities : [
 				{
 					src : "images/dc.jpg",
 					title : "6. Washington-Arlington-Alexandria, DMV",
@@ -97,7 +97,7 @@ var city_data = {
 		{
 			region : "South",
 			thumbnail : "images/south.jpg",
-			city : [
+			cities : [
 				{
 					src : "images/palmbay.jpg",
 					title : "7. Palm-Bay-Melbourne-Titusville, FL",

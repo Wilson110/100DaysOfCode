@@ -16,11 +16,12 @@ $(document).ready(function(){
 	source = $("#cities-template").html();
 	cities_template = Handlebars.compile(source);
 
-	source = $("city-template").html();
+	source = $("#city-template").html();
 	city_template = Handlebars.compile(source);
 
 	$("#list-page").click(function(){
 		showTemplate(list_template, city_data);
+		$("#cities-page").removeClass("active");
 		$("#list-page").addClass("active");
 		$(".region-thumbnail").click(function(){
 			var index = $(this).data("id");

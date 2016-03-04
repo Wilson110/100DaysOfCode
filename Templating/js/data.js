@@ -50,7 +50,7 @@ var city_data = {
 					description : "Advanced industries, share of employment: 15.5%. Share of output: 27.4%"
 				},
 				{
-					src : "images/detroit.jpg"
+					src : "images/detroit.jpg",
 					title : "4. Detroit-Warren-Dearboarn, MI",
 					description : "Advanced industries, share of employment: 14.8%. Share of output: 24.8%"
 				}

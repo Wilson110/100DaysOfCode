@@ -34,4 +34,17 @@ $(document).ready(function(){
 		});
 	}); // ends list-page click function
 
-})
+	$("#cities-page").click(function(){
+		showTemplate(cities_template, current_list);
+		$("#list-page").removeClass("active");
+		$("#cities-page").addClass("active");
+		$(".city-thumbnail").click(function(){
+			var index = $(this).data("id");
+			current_city = current_list.cities[index];
+			showTemplate(city_template, current_city);
+		});
+	});
+
+	$("#list-page").click();
+
+});

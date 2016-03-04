@@ -27,7 +27,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 42](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating) | [day 43](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/data.js) | [day 44](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/data.js) | [day 45](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/data.js) | [day 46](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/index.html) | [day 47](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/index.html) |
 
-| [day 48](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/script.js) | day 49 | day 50 | day 51 | day 52 | day 53 |
+| [day 48](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/script.js) | [day 49](https://github.com/Wilcott321/100DaysOfCode/tree/master/Templating/js/script.us) | day 50 | day 51 | day 52 | day 53 |
 
 | day 54  | day 55 | day 56 | day 57 | day 58 | day 59 |
 

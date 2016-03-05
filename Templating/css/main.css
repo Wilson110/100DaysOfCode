@@ -67,7 +67,7 @@ ul li a:hover {
 div.figures {
 	overflow: hidden;
 }
-div.figures figures {
+div.figures figure {
 	display: inline-block;
 	border: 1px solid #003399;
 }

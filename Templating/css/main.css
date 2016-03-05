@@ -3,7 +3,7 @@ body {
 	padding: 2px;
 	background-color: #003399;
 }
-article,aside,details,figcaption,figure,footer,header,menu,
+article,aside,details,footer,header,menu,
 nav,section,summary {
   display: block;
 }

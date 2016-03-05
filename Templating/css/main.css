@@ -55,6 +55,33 @@ ul li a:hover {
 	color: #fff;
 	font-weight: bold;
 }
+/* column structure */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.col {
+	display: block;
+	float: left;
+	margin: 1;
+}
+.col:first-child {
+	margin-left: 0;
+}
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1;
+}
+.span_1_of_3 {
+	width: 32.26%;
+}
 /* Figures and images */
 .crop-img {
 	width: 100px;
@@ -64,13 +91,7 @@ ul li a:hover {
 	width: 300px;
 	height: 150px;
 }
-div.figures {
-	overflow: hidden;
-}
-div.figures figure {
-	display: inline-block;
-	border: 1px solid #003399;
-}
+
 /* footer */
 footer {
 	clear: both;

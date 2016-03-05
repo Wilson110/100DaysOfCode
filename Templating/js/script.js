@@ -5,7 +5,7 @@ var current_city = current_list.cities[0];
 
 function showTemplate(template, data) {
 	var html = template(data);
-	$('#current').html(html);
+	$('#content').html(html);
 }
 
 $(document).ready(function(){

@@ -27,6 +27,17 @@ ul li a:hover {
 	text-decoration: underline;
 	font-weight: bold;
 }
+button {
+	background-color: #000;
+	color: #fff;
+	width: 150px;
+	margin-left: 40px;
+}
+button:hover {
+	background-color: #a6a6a6;
+	color: #000;
+	border: 1px solid #000;
+}
 .active {
 	background-color: #a6a6a6;
 	width: 100px;

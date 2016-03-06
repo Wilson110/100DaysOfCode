@@ -37,13 +37,15 @@
 		<script id="list-template" type="text/x-handlebars-template">
 			{{#each info}}
 			<div class="section group">
-				<figure class="col span_1_of_3 region-thumbnail" data-id="{{@index}}">
-					<img class="crop-img" src="{{thumbnail}}" alt="region"/>
-					<figcaption>
-						<h3>{{region}}</h3>
-						<p>{{cities.length}} cities<p>
-					</figcaption>
-				</figure>
+				<div class="col span_1_of_3">
+					<figure class="region-thumbnail" data-id="{{@index}}">
+						<img class="crop-img" src="{{thumbnail}}" alt="region"/>
+						<figcaption>
+							<h3>{{region}}</h3>
+							<p>{{cities.length}} cities<p>
+						</figcaption>
+					</figure>
+				</div>
 			</div>
 			{{/each}}
 		</script>
@@ -52,12 +54,14 @@
 		<script id="cities-template" type="text/x-handlebars-template">
 			{{#each cities}}
 			<div class="section group">
-				<figure class="col span_1_of_3 city-thumbnail" data-id="{{@index}}">
-					<img class="crop-img" src="{{src}}" alt="city"/>
-					<figcaption>
-						<h4>{{title}}</h4>
-					</figcaption>
-				</figure>
+				<div class="col span_1_of_3">
+					<figure class="city-thumbnail" data-id="{{@index}}">
+						<img class="crop-img" src="{{src}}" alt="city"/>
+						<figcaption>
+							<h4>{{title}}</h4>
+						</figcaption>
+					</figure>
+				</div>
 			</div>
 			{{/each}}
 		</script>

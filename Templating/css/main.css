@@ -16,7 +16,8 @@ header {
 }
 ul li {
 	color: #000;
-	text-decoration: none;
+	list-style-type: none;
+	padding-bottom: 20px;
 }
 ul li a {
 	color: #000;

@@ -45,11 +45,13 @@ ul li a:hover {
 .col {
 	display: block;
 	float: left;
-	margin: 1;
+	margin: 1% 0 1% 1.6%;
 }
 .col:first-child {
 	margin-left: 0;
 }
+
+/* grouping */
 .group:before, .group:after {
 	content: "";
 	display: table;
@@ -60,8 +62,10 @@ ul li a:hover {
 .group {
 	zoom: 1;
 }
+
+/* grid */
 .span_1_of_3 {
-	width: 32.26%;
+	width: 32.2%;
 }
 
 /* Figures and images */

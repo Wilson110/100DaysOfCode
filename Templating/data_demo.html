@@ -14,32 +14,49 @@
 	<body>
 		
 		<header>
-			<h1>Top Tech Centers</h1>
+			<div class="section group">
+				<div class="col span_3_of_3">
+					<h1>Top Tech Centers</h1>
+				</div>
+			</div>
 		</header>
 		
+
+		
 		<div id="nav">
-			<ul>
-				<li><a href="#" id="list-page">The List</a></li>
-				<li><a href="#" id="cities-page">City Info</a></li>
-			</ul>
+			<div class="section group">
+				<div class="col span_1_of_3">
+					<ul>
+						<li><a href="#" id="list-page">The List</a></li>
+						<li><a href="#" id="cities-page">City Info</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 
 		<div id="main_section">
 			<div class="section group">
-				<div class="col span_1_of_3">
-					<!-- content to be added by script templates -->
-					<div id="content"></div>
+				<div class="col span_2_of_3">
+					<div class="section group">
+						<!-- content to be added by script templates -->
+						<div id="content"></div>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<footer>
-			<h3>Copyright &copy; Footer</h3>
+			<div class="section group">
+				<div class="col span_3_of_3">
+					<h3>Copyright &copy; Footer</h3>
+				</div>
+			</div>
 		</footer>
 
 		<!--- list-template script -->
 		<script id="list-template" type="text/x-handlebars-template">
 			{{#each info}}
+			<div class="col span_1_of_3">
 				<figure class="region-thumbnail" data-id="{{@index}}">
 					<img class="crop-img" src="{{thumbnail}}" alt="region"/>
 					<figcaption>
@@ -47,18 +64,21 @@
 						<p>{{cities.length}} cities<p>
 					</figcaption>
 				</figure>
+			</div>
 			{{/each}}
 		</script>
 
 		<!--- cities-template script ---->
 		<script id="cities-template" type="text/x-handlebars-template">
 			{{#each cities}}
+			<div class="col span_1_of_3">
 				<figure class="city-thumbnail" data-id="{{@index}}">
 					<img class="crop-img" src="{{src}}" alt="city"/>
 					<figcaption>
 						<h4>{{title}}</h4>
 					</figcaption>
 				</figure>
+			</div>
 			{{/each}}
 		</script>
 

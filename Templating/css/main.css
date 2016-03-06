@@ -8,12 +8,12 @@ header {
 	line-height: 30px;
 	background-color: #eeeeee;
 	height:800px;
-	width: 100px;
+	width: 200px;
 	float: left;
 	padding: 5px;
 }
 #main_section {
-	width: 850px;
+	width: 750px;
 	float:left;
 	padding:10px;
 }

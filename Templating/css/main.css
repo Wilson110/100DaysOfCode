@@ -67,6 +67,12 @@ ul li a:hover {
 .span_1_of_3 {
 	width: 32.2%;
 }
+.span_2_of_3 {
+	width: 66.13%;
+}
+.span_3_of_3 {
+	width: 100%;
+}
 
 /* Figures and images */
 .crop-img {
@@ -84,4 +90,10 @@ footer {
 	color: #fff;
 	text-align: center;
 	padding:5px;
+}%
+
+/* responsive media queries */
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width:100%;}
 }

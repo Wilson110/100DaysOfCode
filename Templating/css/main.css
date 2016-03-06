@@ -12,13 +12,8 @@ header {
 	float: left;
 	padding: 5px;
 }
-#main_section {
-	width: 750px;
-	float:left;
-	padding:10px;
-}
 ul li {
-	padding-right: 30px;
+	padding-right: 10px;
 	color: #000;
 }
 ul li a {

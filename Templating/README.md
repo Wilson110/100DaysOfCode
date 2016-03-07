@@ -7,3 +7,4 @@ I'm learning how to use templates by working with various JavaScript libraries. 
 ### Credits
 * Photo credits: [Pixabay](http://www.pixabay.com)
 * Grid structure: [Responsive Grid System](http://responsivegridsystem.com)
+* Data Source: [15 Cities with the Most High-Tech Jobs](http://247wallst.com/special-report/2015/03/13/15-cities-with-the-most-high-tech-jobs/6/)

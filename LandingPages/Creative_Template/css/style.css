@@ -25,4 +25,19 @@ h1 {
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+h1 span {
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	border: 10px solid #fff;
+}
+.subtitle {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #fff;
+	line-height: 1;
 }

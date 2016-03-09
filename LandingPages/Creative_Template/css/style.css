@@ -1,12 +1,18 @@
 header {
 	height: 450px;
-	background: #ccc; /*will add image later*/
+	background-image: url(../img/hero.jpg);
 	font-family: Open Sans, Arial;
 }
 .logo {
 	width: 50px;
 	height: 50px;
 	background: #999; /*will add later*/
+	float: left;
+	margin: 10px 0 0 30px;
+}
+nav {
+	float: right;
+	margin: 30px 30px 0 0;
 }
 nav a {
 	display: inline-block;
@@ -27,6 +33,8 @@ h1 {
 	letter-spacing: 0.05em;
 	text-align: center;
 	margin-bottom: 20px;
+	clear: both;
+	padding-top: 100px;
 }
 h1 span {
 	display: inline-block;

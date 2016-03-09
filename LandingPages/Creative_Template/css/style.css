@@ -1,6 +1,7 @@
 header {
 	height: 450px;
 	background: #ccc; /*will add image later*/
+	font-family: Open Sans, Arial;
 }
 .logo {
 	width: 50px;

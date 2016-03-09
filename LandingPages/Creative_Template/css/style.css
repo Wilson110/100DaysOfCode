@@ -1,0 +1,26 @@
+header {
+	height: 450px;
+	background: #ccc; /*will add image later*/
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	background: #999; /*will add later*/
+}
+nav a {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: rgba(0,0,0, 0.7);
+}
+nav a:hover {
+	color: rgba(0,0,0,0.1);
+}
+h1 {
+	font-size: 72px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}

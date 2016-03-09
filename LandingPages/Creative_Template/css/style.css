@@ -23,4 +23,5 @@ h1 {
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
+	letter-spacing: 0.05em;
 }

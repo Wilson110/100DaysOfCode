@@ -52,3 +52,17 @@ h1 span {
 	color: #fff;
 	line-height: 1;
 }
+footer {
+	background-color: #334d4d;
+	height: 100px;
+	font-family: Open Sans, Arial;
+}
+
+.copyright {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	clear: both;
+}

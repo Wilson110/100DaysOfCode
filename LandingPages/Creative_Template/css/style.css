@@ -64,5 +64,46 @@ footer {
 	text-align: center;
 	font-size: 12px;
 	color: #fff;
+}
+
+/*** The Grid System ***/
+.section {
 	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+	margin-left:0;
+}
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+	zoom:1;
+}
+
+/*** grid of three ***/
+.span_1_of_3 {
+	width: 32.26%;
+}
+.span_2_of_3 {
+	width: 66.13%;
+}
+.span_3_of_3 {
+	width: 100%;
+}
+
+/*** responsive queries ***/
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_1_of_3, .span_2_of_3, .span_3_of_3 { width: 100%;}
 }

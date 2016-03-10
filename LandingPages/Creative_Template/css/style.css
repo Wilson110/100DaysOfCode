@@ -1,4 +1,4 @@
-header {
+.jumbotron {
 	height: 450px;
 	background-image: url(../img/hero.jpg);
 	background-repeat: no-repeat;
@@ -6,27 +6,20 @@ header {
 	background-size: cover;
 	font-family: Open Sans, Arial;
 }
-.logo {
-	width: 50px;
-	height: 50px;
-	background: #999; /*will add later*/
-	float: left;
-	margin: 10px 0 0 30px;
-}
-nav {
-	float: right;
-}
-nav a {
-	margin: -5px 20px 0 auto;
-	display: inline-block;
+
+.navbar .container .navbar-collapse .navbar-right li a {	
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: rgba(0,0,0, 0.7);
+	color: #fff;
 }
-nav a:hover {
-	color: rgba(0,0,0,0.1);
+.navbar .navbar-collapse .navbar-right li a:hover {
+	color: #fff;
 }
+.navbar-brand {
+	color: #fff;
+}
+
 h1 {
 	font-size: 72px;
 	font-weight: 700;
@@ -42,6 +35,7 @@ h1 span {
 	display: inline-block;
 	padding: 0.2em 0.5em;
 	border: 10px solid #fff;
+	color: #FFf;
 }
 .subtitle {
 	text-align: center;
@@ -51,17 +45,15 @@ h1 span {
 	color: #fff;
 	line-height: 1;
 }
-footer {
+.footer {
+	position: absolute;
+	width: 100%;
 	background-color: #334d4d;
-	height: 100px;
+	height: 60px;
 	font-family: Open Sans, Arial;
+	color: #fff;
+	bottom: 0;
 }
 
-.copyright {
-	text-transform: uppercase;
-	margin-bottom: 0px;
-	text-align: center;
-	font-size: 12px;
-	color: #fff;
-}
+
 

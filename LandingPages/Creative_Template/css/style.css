@@ -50,7 +50,23 @@ h1 span {
 	background-color: #4a7c8c;
 	color: #fff;
 	font-family: Open Sans, Arial;
+	bottom:0;
 }
+.bottom .container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.contact-icons li {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+.contact-icons i, .contact-icons a, .social-icons i, .social-icons a {
+	color: #fff;
+}
+.contact-icons i {
+	padding-right: 10px;
+}
+
 
 
 

@@ -45,6 +45,12 @@ h1 span {
 	color: #fff;
 	line-height: 1;
 }
+.bottom {
+	width: 100%;
+	background-color: #4a7c8c;
+	color: #fff;
+	font-family: Open Sans, Arial;
+}
 .footer {
 	position: absolute;
 	width: 100%;

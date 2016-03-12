@@ -56,14 +56,14 @@ h1 span {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-.contact-icons li {
+.contact-icons > li {
 	list-style-type: none;
 	padding-bottom: 10px;
 }
-.contact-icons a, .social-icons i, .social-icons a {
+.email, .social-icons > i, .social-icons > a {
 	color: #fff;
 }
-.contact-icons i {
+.contact-icons > i {
 	padding-right: 10px;
 }
 .fa-cirlce {

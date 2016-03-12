@@ -16,6 +16,7 @@
 .navbar .navbar-collapse .navbar-right li a:hover {
 	color: #e2e7e9;
 }
+
 .navbar-brand {
 	color: #e2e7e9;
 }
@@ -60,11 +61,14 @@ h1 span {
 	list-style-type: none;
 	padding-bottom: 10px;
 }
+.social-icons {
+	padding-bottom: 15px;
+}
 .email, .social-icons > i, .social-icons > a {
 	color: #e2e7e9;
 }
 .contact-icons > li > .fa-stack > .fa-map-marker, 
-.contact-icons > li > .fa-stack > .fa-phone, 
+.contact-icons > li > .fa-stack > .fa-mobile, 
 .contact-icons > li > .fa-stack > .fa-envelope {
 	color: #798d96;
 }

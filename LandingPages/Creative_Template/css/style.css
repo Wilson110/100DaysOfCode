@@ -11,19 +11,19 @@
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #fff;
+	color: #e2e7e9;
 }
 .navbar .navbar-collapse .navbar-right li a:hover {
-	color: #fff;
+	color: #e2e7e9;
 }
 .navbar-brand {
-	color: #fff;
+	color: #e2e7e9;
 }
 
 h1 {
 	font-size: 72px;
 	font-weight: 700;
-	color: #fff;
+	color: #e2e7e9;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	text-align: center;
@@ -34,21 +34,21 @@ h1 {
 h1 span {
 	display: inline-block;
 	padding: 0.2em 0.5em;
-	border: 10px solid #fff;
-	color: #FFf;
+	border: 10px solid #e2e7e9;
+	color: #e2e7e9;
 }
 .subtitle {
 	text-align: center;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
-	color: #fff;
+	color: #e2e7e9;
 	line-height: 1;
 }
 .bottom {
 	width: 100%;
-	background-color: #467686;
-	color: #fff;
+	background-color: #798d96;
+	color: #e2e7e9;
 	font-family: Open Sans, Arial;
 	bottom:0;
 }
@@ -61,13 +61,15 @@ h1 span {
 	padding-bottom: 10px;
 }
 .email, .social-icons > i, .social-icons > a {
-	color: #fff;
+	color: #e2e7e9;
 }
-.contact-icons > i {
-	padding-right: 10px;
+.contact-icons > li > .fa-stack > .fa-map-marker, 
+.contact-icons > li > .fa-stack > .fa-phone, 
+.contact-icons > li > .fa-stack > .fa-envelope {
+	color: #798d96;
 }
-.fa-cirlce {
-	background-color: #9bbeca;
+.fa-circle {
+	color: #e2e7e9;
 }
 
 

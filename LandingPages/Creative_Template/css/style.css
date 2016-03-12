@@ -38,6 +38,23 @@ h1 span {
 	border: 10px solid #e2e7e9;
 	color: #e2e7e9;
 }
+h3, h4, h5 {
+	text-transform: uppercase;
+}
+.bio > .col-sm-12 > h3 {
+	color: #798d96;
+}
+.bio > .col-sm-12 > p, .skills > .col-md-4 > p {
+	line-height: 2;
+}
+.skills > .col-md-4 > h5 {
+	color: #798d96;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.bio, .skills {
+	margin-bottom: 20px;
+}
 .subtitle {
 	text-align: center;
 	font-weight: 700;

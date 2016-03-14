@@ -1,0 +1,22 @@
+html, body {
+	height: 100%;
+}
+#cover {
+	background: #222 url('../img/decor.jpg') center center no-repeat;
+	background-size: cover;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+#cover-caption {
+	width: 100%;
+}
+#cover-caption > .container > .col-sm-10 > .display-3 {
+	padding-top: 150px;
+}
+.btn-primary {
+	background-color: #9296dd;
+	border-color: #fff;
+}

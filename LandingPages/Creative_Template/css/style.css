@@ -95,6 +95,20 @@ h3, h4, h5 {
 i.icon-file {
 	color: #Fff;
 }
+.btn-dark {
+	background-color: #000;
+}
+.avatar {
+	float:left;
+}
+.midsection {
+	width: 100%;
+	background-color: #798d96;
+}
+.resume-block {
+	background-color: #e2e7e9;
+	padding: 15px 15px;
+}
 
 
 

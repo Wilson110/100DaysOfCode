@@ -53,7 +53,10 @@ h3, h4, h5 {
 	letter-spacing: 2px;
 }
 .bio, .skills {
-	margin-bottom: 20px;
+	padding-top: 30px;
+}
+.skills {
+	padding-bottom: 50px;
 }
 .subtitle {
 	text-align: center;
@@ -70,9 +73,8 @@ h3, h4, h5 {
 	font-family: Open Sans, Arial;
 	bottom:0;
 }
-.bottom .container {
-	padding-top: 20px;
-	padding-bottom: 20px;
+.bottom > .container {
+	padding: 20px 0;
 }
 .contact-icons > li {
 	list-style-type: none;
@@ -104,6 +106,9 @@ i.icon-file {
 .midsection {
 	width: 100%;
 	background-color: #798d96;
+}
+.resume {
+	padding: 50px 0;
 }
 .resume-block {
 	background-color: #e2e7e9;

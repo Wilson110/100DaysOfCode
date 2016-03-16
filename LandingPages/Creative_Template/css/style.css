@@ -44,18 +44,18 @@ h3, h4, h5 {
 .bio > .col-sm-12 > h3 {
 	color: #798d96;
 }
-.bio > .col-sm-12 > p, .skills > .col-md-4 > p {
+.bio > .col-sm-12 > p, .personality > .col-md-4 > p {
 	line-height: 2;
 }
-.skills > .col-md-4 > h5 {
+.personality > .col-md-4 > h5 {
 	color: #798d96;
 	text-align: center;
 	letter-spacing: 2px;
 }
-.bio, .skills {
+.bio, .personality {
 	padding-top: 30px;
 }
-.skills {
+.personality {
 	padding-bottom: 50px;
 }
 .subtitle {
@@ -113,6 +113,15 @@ i.icon-file {
 .resume-block {
 	background-color: #e2e7e9;
 	padding: 15px 15px;
+}
+.avatar {
+	padding-right: 20px;
+}
+.midsection > .resume > .row > h3 {
+	color: #e2e7e9;
+}
+.resume-block > h5 {
+	color: #798d96;
 }
 
 

@@ -1,10 +1,22 @@
 .jumbotron {
-	height: 450px;
+	height: 92vh;
 	background-image: url(../img/hero.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	font-family: Open Sans, Arial;
+}
+#nav {
+	margin-top: -30px;
+}
+#nav.affix {
+	position: fixed;
+	top: 30px;
+	width: 100%;
+	z-index: 10;
+}
+.navbar {
+	background-color: #798d96;
 }
 
 .navbar .container .navbar-collapse .navbar-right li a {	
@@ -30,7 +42,7 @@ h1 {
 	text-align: center;
 	margin-bottom: 20px;
 	clear: both;
-	padding-top: 100px;
+	padding-top: 120px;
 }
 h1 span {
 	display: inline-block;

@@ -31,7 +31,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 54](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template)  | [day 55](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 56](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 57](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 58](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 59](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template) |
 
-| [day 60](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template)  | [day 61](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template/index.html) | day 62 | day 63 | day 64 | day 65 |
+| [day 60](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template)  | [day 61](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template/index.html) | [day 62](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 63](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | day 64 | day 65 |
 
 | day 66  | day 66 | day 67 | day 68 | day 69 | day 70 |
 

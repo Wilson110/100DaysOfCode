@@ -16,8 +16,17 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<nav class="navbar navbar-fixed-top">
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+		<div class="jumbotron">
+			<div class="container">
+				<h1><span>Creative Theme</span></h1>
+				<p class="subtitle">Developer // Designer // Blogger</p>
+			</div>
+		</div>
+
+		<div id="nav">
+		<nav class="navbar navbar-static">
 			<div class="container">
 				<div class="navbar-header">
 					<a class="btn btn-navbar" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
@@ -37,12 +46,6 @@
 				</div>
 			</div>
 		</nav>
-
-		<div class="jumbotron">
-			<div class="container">
-				<h1><span>Creative Theme</span></h1>
-				<p class="subtitle">Developer // Designer // Blogger</p>
-			</div>
 		</div>
 
 		<div class="container">
@@ -238,5 +241,12 @@
 		<!--- scripts ---->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$('#nav').affix({
+				offset: {
+					top: 450
+				}
+			});
+		</script>
 	</body>
 </html>

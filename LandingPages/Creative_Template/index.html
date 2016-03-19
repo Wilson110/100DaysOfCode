@@ -17,16 +17,15 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-		<div class="jumbotron">
+		
+		<div id="header" class="jumbotron">
 			<div class="container">
 				<h1><span>Creative Theme</span></h1>
 				<p class="subtitle">Developer // Designer // Blogger</p>
 			</div>
 		</div>
 
-		<div id="nav">
-		<nav class="navbar navbar-static">
+		<nav id="nav" class="navbar navbar-static">
 			<div class="container">
 				<div class="navbar-header">
 					<a class="btn btn-navbar" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
@@ -34,21 +33,20 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="navbar-brand" href="#">Brand</a>
+					<a class="navbar-brand" href="#header">Brand</a>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Resume</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#cur-vitae">Resume</a></li>
 						<li><a href="#">Work</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-		</div>
 
-		<div class="container">
+		<div id="about" class="container">
 			<div class="bio row">
 				<div class="col-sm-12">
 					<h3>About Me</h3>
@@ -71,9 +69,9 @@
 			</div>
 		</div>
 
-		<div class="midsection">
+		<div id="cur-vitae" class="midsection">
 			<div class="resume container">
-				<div class="contact row">
+				<div class="details row">
 					<div class="col-xs-6 col-md-4">
 						<img src="img/avatar.jpg" title="avatar" alt="avatar" class="avatar">
 						<p>First Last Name</p>
@@ -174,7 +172,7 @@
 		</div>
 
 		<div class="bottom">
-			<div class="container">
+			<div id="contact" class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-6">
 						<h3>Contact me</h3>

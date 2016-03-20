@@ -1,3 +1,6 @@
+/*css*/
+
+/*** JUMBOTRON HEADER ***/
 .jumbotron {
 	height: 92vh;
 	background-image: url(../img/hero.jpg);
@@ -6,6 +9,17 @@
 	background-size: cover;
 	font-family: Open Sans, Arial;
 }
+.subtitle {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #e2e7e9;
+	line-height: 1;
+}
+
+/*** NAVIGATION ***/
+
 #nav {
 	margin-top: -30px;
 }
@@ -33,6 +47,8 @@
 	color: #e2e7e9;
 }
 
+/*** HEADINGS ***/
+
 h1 {
 	font-size: 72px;
 	font-weight: 700;
@@ -53,6 +69,21 @@ h1 span {
 h3, h4, h5 {
 	text-transform: uppercase;
 }
+
+/*** MIDSECTION BIO ***/
+
+.avatar {
+	float:left;
+	padding-right: 20px;
+}
+.btn-dark, .btn-dark a {
+	background-color: #000;
+	color: #e2e7e9;
+}
+.midsection {
+	width: 100%;
+	background-color: #798d96;
+}
 .bio > .col-sm-12 > h3 {
 	color: #798d96;
 }
@@ -70,58 +101,9 @@ h3, h4, h5 {
 .personality {
 	padding-bottom: 50px;
 }
-.subtitle {
-	text-align: center;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: #e2e7e9;
-	line-height: 1;
-}
-.bottom {
-	width: 100%;
-	background-color: #798d96;
-	color: #e2e7e9;
-	font-family: Open Sans, Arial;
-	bottom:0;
-}
-.bottom > .container {
-	padding: 20px 0;
-}
-.contact-icons > li {
-	list-style-type: none;
-	padding-bottom: 10px;
-}
-.social-icons {
-	padding-bottom: 15px;
-}
-.email, .social-icons > i, .social-icons > a {
-	color: #e2e7e9;
-}
-.contact-icons > li > .fa-stack > .fa-map-marker, 
-.contact-icons > li > .fa-stack > .fa-mobile, 
-.contact-icons > li > .fa-stack > .fa-envelope {
-	color: #798d96;
-}
-.fa-circle {
-	color: #e2e7e9;
-}
-i.icon-file {
-	color: #Fff;
-}
-.btn-dark, .btn-dark a {
-	background-color: #000;
-	color: #e2e7e9;
-}
 
-.avatar {
-	float:left;
-	padding-right: 20px;
-}
-.midsection {
-	width: 100%;
-	background-color: #798d96;
-}
+/*** MIDSECTION RESUME ***/
+
 .resume {
 	padding: 50px 0;
 }
@@ -145,6 +127,47 @@ i.icon-file {
 .details {
 	color: #e2e7e9;
 }
+
+/*** BOTTOM AND FOOTER ***/
+
+.bottom {
+	width: 100%;
+	background-color: #798d96;
+	color: #e2e7e9;
+	font-family: Open Sans, Arial;
+	bottom:0;
+}
+.bottom > .container {
+	padding: 20px 0;
+}
+
+/*** CONTACT AND ICONS ***/
+
+.contact-icons > li > .fa-stack > .fa-map-marker, 
+.contact-icons > li > .fa-stack > .fa-mobile, 
+.contact-icons > li > .fa-stack > .fa-envelope {
+	color: #798d96;
+}
+
+.contact-icons > li {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+.social-icons {
+	padding-bottom: 15px;
+}
+.email, .social-icons > i, .social-icons > a {
+	color: #e2e7e9;
+}
+
+.fa-circle {
+	color: #e2e7e9;
+}
+i.icon-file {
+	color: #Fff;
+}
+
+
 
 
 

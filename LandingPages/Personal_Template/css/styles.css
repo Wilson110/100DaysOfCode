@@ -5,6 +5,9 @@ html, body {
 img {
 	max-width: 100%;
 }
+.section-content {
+	padding: 5rem 0;
+}
 #cover {
 	background: #222 url('../img/decor.jpg') center center no-repeat;
 	background-size: cover;

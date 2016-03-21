@@ -8,6 +8,15 @@ img {
 .section-content {
 	padding: 5rem 0;
 }
+#about {
+	background: url('../img/woman.jpg') center center no-repeat;
+	background-size: cover;
+}
+#about .about-text {
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	padding: 1.875rem;
+}
 #cover {
 	background: #222 url('../img/decor.jpg') center center no-repeat;
 	background-size: cover;

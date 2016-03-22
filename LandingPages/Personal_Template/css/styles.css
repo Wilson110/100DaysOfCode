@@ -36,3 +36,9 @@ img {
 	background-color: #9296dd;
 	border-color: #fff;
 }
+#footer-main {
+	background: #222;
+	color: #fff;
+	font-size 0.8rem;
+	padding: 2.5rem 0;
+}

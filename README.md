@@ -33,17 +33,17 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 60](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template)  | [day 61](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template/index.html) | [day 62](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 63](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 64](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 65](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) |
 
-| day 66  | day 66 | day 67 | day 68 | day 69 | day 70 |
+| [day 66](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template)  | [day 67](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template) | day 68 | day 69 | day 70 | day 71 |
 
-| day 71  | day 72 | day 73 | day 74 | day 75 | day 76 |
+| day 72  | day 73 | day 74 | day 75 | day 76 | day 77 |
 
-| day 77  | day 78 | day 79 | day 80 | day 81 | day 82 |
+| day 78  | day 79 | day 80 | day 81 | day 82 | day 83 |
 
-| day 83  | day 84 | day 85 | day 86 | day 87 | day 88 |
+| day 84  | day 85 | day 86 | day 87 | day 88 | day 89 |
 
-| day 89  | day 90 | day 91 | day 92 | day 93 | day 94 |
+| day 90  | day 91 | day 92 | day 93 | day 94 | day 95 |
 
-| day 95  | day 96 | day 97 | day 98 | day 99 | day 100 |
+| day 96  | day 97 | day 98 | day 99 | day 100 | bonus |
 
 ## Contributors
 Me, /Wilcott321 

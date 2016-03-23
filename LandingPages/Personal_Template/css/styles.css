@@ -13,7 +13,7 @@ img {
 	background-size: cover;
 }
 #about .about-text {
-	background: rgba(0,0,0,0.8);
+	background: rgba(146, 150, 221, 0.8);
 	color: #fff;
 	padding: 1.875rem;
 }
@@ -36,9 +36,66 @@ img {
 	background-color: #9296dd;
 	border-color: #fff;
 }
+.btn-sm:hover {
+	background-color: #9296dd;
+	color: #fff;
+}
+.btn-success-outline {
+	color: #9296dd;
+	border-color: #9296dd;
+}
+.btn-success-outline:hover {
+	background-color: #9296dd;
+	border-color: #9296dd;
+	color: #fff;
+}
+.btn-secondary-outline:hover {
+	background-color: #9296dd;
+	color: #fff;
+}
+.navbar > .navbar-nav > .nav-item:hover {
+	color: #9296dd;
+}
+.navbar > .navbar-nav > .nav-item {
+	color: #fff;
+}
+.navbar > .navbar-nav > .active {
+	color: #9296dd;
+}
+.page-link {
+	color: #9296dd;
+}
+.page-link:hover {
+	background-color: #9296dd;
+	color: #fff;
+}
+.social {
+	color: #fff;
+	border-color:#fff;
+}
+.card-inverse {
+	background-color: #9296dd;
+	color: #fff;
+}
+small, .text-muted {
+	color: #fff;
+}
+.lead-card {
+	background-color: #9296dd;
+	color: #fff;
+}
+.card {
+	border-color: #9296dd;
+}
+hr {
+	color: #9296dd;
+}
 #footer-main {
 	background: #222;
 	color: #fff;
 	font-size 0.8rem;
 	padding: 2.5rem 0;
+}
+#footer-main a {
+	color: #9296dd;
 }

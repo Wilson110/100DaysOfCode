@@ -139,6 +139,31 @@ blockquote {
 	color: #e2e7e9;
 }
 
+/*** PORTFOLIO SECTION ***/
+.portfolio {
+	margin: 48px 0;
+}
+.portfolio-sorting {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 48px;
+	font-color: #798d96;
+	font-family: Open Sans, Arial;
+}
+.portfolio-sorting li a {
+	color: #798d96;
+	text-decoration: none;
+	padding: 6px;
+}
+.portfolio-sorting li a:hover,
+.portfolio-sorting li a:active {
+	color: #2980b9;
+	border-bottom: 2px solid #2090b9;
+}
+.portfolio-item {
+	margin-bottom: 30px;
+}
+
 /*** BOTTOM AND FOOTER ***/
 
 .bottom {

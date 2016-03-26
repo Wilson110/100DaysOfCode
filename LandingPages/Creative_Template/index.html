@@ -47,7 +47,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#about">About</a></li>
 						<li><a href="#cur-vitae">Resume</a></li>
-						<li><a href="#">Work</a></li>
+						<li><a href="#work">Work</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -191,7 +191,7 @@
 			</div>
 		</div>
 
-		<div class="portfolio">
+		<div id="work" class="portfolio">
 			<div class="container">
 				<div class="row">
 					<ul class="portfolio-sorting list-inline text center">
@@ -381,6 +381,14 @@
 					top: 450
 				}
 			});
+			var url = window.location;
+			// when string in href matches location
+			$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+
+			// for relative and absolute hrefs
+			$('ul.nav a').filter(function() {
+    			return this.href == url;
+			}).parent().addClass('active');
 		</script>
 	</body>
 </html>

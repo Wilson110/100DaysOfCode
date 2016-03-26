@@ -19,6 +19,9 @@
 }
 
 /*** NAVIGATION ***/
+li.active {
+	background-color: #435056;
+}
 
 #nav {
 	margin-top: -30px;

@@ -376,11 +376,13 @@
 		<script src="js/custom.js"></script>
 		<script src="js/modal.js"></script>
 		<script>
+			// navbar is fixed when user scrolls to content
 			$('#nav').affix({
 				offset: {
 					top: 450
 				}
 			});
+			// script that will show active when user is in section
 			var url = window.location;
 			// when string in href matches location
 			$('ul.nav a[href="'+ url +'"]').parent().addClass('active');

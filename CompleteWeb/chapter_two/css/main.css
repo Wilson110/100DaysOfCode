@@ -1,21 +1,54 @@
 #topbar {
-	width: 100px;
+	width: 1000px;
 	margin: 0 auto;
-	background-color: red;
 	height: 40px;
 }
 body {
 	margin: 0;
 	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
 }
 #logo {
-	margin-top: 5px;
-	width: 100xp;
+	margin-top: 8px;
+	width: 100px;
 	float: left;
 	margin-right: 8px;
 }
-#topbar-section {
+.topbar-section {
 	float: left;
 	border-left: 1px #CCCCCC solid;
 	height: 100%;
+}
+.topbar-menu {
+	font-weight:bold;
+	font-size: 90%;
+	padding: 13px 15px 0 15px;
+	height: 27px;
+}
+.user {
+	margin: 5px 10px;
+	float: left;
+}
+.more {
+	padding-right: 40px;
+}
+#signin-text {
+	font-weight: bold;
+	font-size: 90%;
+	position: relative;
+	top: 14px;
+	padding-right: 50px;
+}
+#search-box {
+	background-color: #E4E4E4;
+	border: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding:5px;
+	margin: 5px 0 5px 5px;
+	float: left;
+}
+#magnify-glass {
+	height: 27px;
+	margin-top: 5px;
 }

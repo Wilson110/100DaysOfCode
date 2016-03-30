@@ -1,0 +1,21 @@
+#topbar {
+	width: 100px;
+	margin: 0 auto;
+	background-color: red;
+	height: 40px;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+#logo {
+	margin-top: 5px;
+	width: 100xp;
+	float: left;
+	margin-right: 8px;
+}
+#topbar-section {
+	float: left;
+	border-left: 1px #CCCCCC solid;
+	height: 100%;
+}

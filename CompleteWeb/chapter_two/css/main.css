@@ -69,6 +69,21 @@ body {
 	background-color: #A91717;
 	width: 100%;
 }
+#menu-bar-2 {
+	width: 1000px;
+	margin: 0 auto;
+	height: 40px;
+}
+#menu-bar-2 a {
+	color: #fff;
+	text-decoration: none;
+	margin-top: 5px;
+	padding: 0 10px;
+	border-right: 1px solid #BB4545;
+	position: relative;
+	top: 9px;
+	font-size: 18px;
+}
 h1 {
 	padding:0;
 	margin:0;

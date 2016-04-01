@@ -35,7 +35,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 66](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template)  | [day 67](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template) | [day 68](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template) | [day 69](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 70](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 71](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) |
 
-| [day 72](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/CreativeTemplate)  | [day 73](https://www.freecodecamp.com/wilcott321) | [day 74](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 75](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 76](https://github.com/Wilcott321/100DaysOfCode/tre/master/CompleteWeb) | day 77 |
+| [day 72](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/CreativeTemplate)  | [day 73](https://www.freecodecamp.com/wilcott321) | [day 74](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 75](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 76](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 77](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) |
 
 | day 78  | day 79 | day 80 | day 81 | day 82 | day 83 |
 

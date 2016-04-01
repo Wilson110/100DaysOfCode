@@ -100,3 +100,15 @@ h1 {
 .arrow {
 	font-size: 12px;
 }
+/****MAIN SECTION*****/
+#page-container {
+	width: 1000px;
+	margin: 0 auto;
+}
+h2 {
+	font-weight: normal;
+	margin-top: 40px;
+	font-size: 20px;
+	border-bottom: 2px solid #a91717;
+	width: 105px;
+}

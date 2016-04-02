@@ -107,8 +107,20 @@ h1 {
 }
 h2 {
 	font-weight: normal;
-	margin-top: 40px;
+	margin-top: 10px;
 	font-size: 20px;
 	border-bottom: 2px solid #a91717;
 	width: 105px;
+}
+h3 a {
+	color: #000;
+	font-size: 30px;
+	text-decoration: none;
+}
+h3 a:hover {
+	color: #1167a8;
+}
+#article-summary {
+	color: #5a5a5a;
+	width: 220px;
 }

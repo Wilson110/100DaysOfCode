@@ -120,7 +120,41 @@ h3 a {
 h3 a:hover {
 	color: #1167a8;
 }
+#article-container {
+	float:left;
+	width: 655px;
+	border-right: 1px solid #CCCCCC;
+}
 #article-summary {
 	color: #5a5a5a;
-	width: 220px;
+	width: 250px;
+	float:left;
+}
+#article-summary img {
+	position: relative; /*Used with top to vertically align img with text*/
+	top: 3px;
+}
+#topic-link {
+	color: #a91717;
+	text-decoration: none;
+	border-left: 1px solid #cccccc;
+	padding-left: 10px;
+}
+#article-summary p {
+	font-size: 14px;
+	margin-top: 0;
+}
+#article-summary a:hover {
+	color: #1167a8;
+}
+#article-hr {
+	color: #a91717;
+	width: 50px;
+}
+.article-link {
+	text-decoration: none;
+	color: #000;
+}
+.article-para {
+	margin-bottom: 5px;
 }

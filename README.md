@@ -37,7 +37,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 72](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/CreativeTemplate)  | [day 73](https://www.freecodecamp.com/wilcott321) | [day 74](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 75](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 76](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 77](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) |
 
-| [day 78](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb)  | day 79 | day 80 | day 81 | day 82 | day 83 |
+| [day 78](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb)  | [day 79](https://www.freecodecamp.com/wilcott321) | day 80 | day 81 | day 82 | day 83 |
 
 | day 84  | day 85 | day 86 | day 87 | day 88 | day 89 |
 

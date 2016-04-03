@@ -35,9 +35,9 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 66](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template)  | [day 67](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template) | [day 68](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Personal_Template) | [day 69](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 70](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) | [day 71](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template) |
 
-| [day 72](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template)  | [day 73](https://www.freecodecamp.com/wilcott321) | [day 74](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 75](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 76](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) | [day 77](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb) |
+| [day 72](https://github.com/Wilcott321/100DaysOfCode/tree/master/LandingPages/Creative_Template)  | [day 73](https://www.freecodecamp.com/wilcott321) | [day 74](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb/chapter_two) | [day 75](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb/chapter_two) | [day 76](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb/chapter_two) | [day 77](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb/chapter_two) |
 
-| [day 78](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb)  | [day 79](https://www.freecodecamp.com/wilcott321) | day 80 | day 81 | day 82 | day 83 |
+| [day 78](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb/chapter_two)  | [day 79](https://www.freecodecamp.com/wilcott321) | day 80 | day 81 | day 82 | day 83 |
 
 | day 84  | day 85 | day 86 | day 87 | day 88 | day 89 |
 
@@ -48,4 +48,5 @@ I will link what I've done for the day below. You may wish to clone this repo an
 ## Contributors
 Me, /Wilcott321 
 * Project [repo link](http://github.com/Wilcott321/100DaysOfCode), 
-* Project [blog page link](http://ourcodeblog.com/100daysofcode)
+* Project [blog page link](http://ourcodeblog.com/100daysofcode),
+* Free Code Camp [profile](http://freecodecamp.com/wilcott321)

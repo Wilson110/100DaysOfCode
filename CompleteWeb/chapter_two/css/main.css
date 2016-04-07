@@ -159,9 +159,37 @@ h3 a:hover {
 	margin-bottom: 5px;
 }
 #watch-listen {
-	margin-left: 20px;
+	margin-left: 10px;
+	width: 280px;
+	float: right;
+	position: relative;
+	top: -30px;
 }
+
 h4 {
 	font-weight:normal;
-	font-size: 20px;
+	font-size: 26px;
+}
+.article-side-image {
+	float: left;
+	width: 90px;
+	margin-right: 10px;
+}
+.watch-link {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+.watch-link:hover {
+	color: #1167a8;
+}
+.topic-time {
+	font-size: 14px;
+	color: #5a5a5a;
+}
+.side-article {
+	width: 280px;
+	position: relative;
+	top: -25px;
 }

@@ -39,7 +39,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 78](https://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb/chapter_two)  | [day 79](https://www.freecodecamp.com/wilcott321) | [day 80](http://codepen.io/SheThrives11/full/GZONXq/) | [day 81](https://www.freecodecamp.com/wilcott321) | [day 82](http://www.freecodecamp.com/Wilcott321) | [day 83](http://github.com/Wilcott321/100DaysOfCode/tree/master/CompleteWeb/chapter_two) |
 
-| day 84  | day 85 | day 86 | day 87 | day 88 | day 89 |
+| [day 84](http://www.freecodecamp.com/Wilcott321)  | day 85 | day 86 | day 87 | day 88 | day 89 |
 
 | day 90  | day 91 | day 92 | day 93 | day 94 | day 95 |
 

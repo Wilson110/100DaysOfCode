@@ -1,5 +1,5 @@
 ## Book App
-##E### A Book App powered by Bootstrap 3 and AngularJS
+###### A Book App powered by Bootstrap 3 and AngularJS
 
 ### About
 I'm in the middle of [Codecademy's AngularJS](http://codecademy.com) track.  I really enjoyed the projects I built thus far and wanted to add them to a personal repo.  This app is the first project I created for the track. 

@@ -63,3 +63,10 @@ app.controller('ListController', ['$scope', function($scope){
 	$scope.list = reviews;
 }]);
 
+app.controller('ReviewsController', ['$scope', function($scope){
+	$scope.review = {};
+	$scope.addReview = function(list) {
+		list.push($scope.review);
+		list.review = {};
+	};
+}]);

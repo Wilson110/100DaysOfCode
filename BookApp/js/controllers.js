@@ -58,3 +58,6 @@ app.controller('MainController', ['$scope', function($scope){
 		$scope.products[index].dislikes += 1;
 	}
 }]);
+app.controller('ListController', function(){
+	this.list = comments;
+});

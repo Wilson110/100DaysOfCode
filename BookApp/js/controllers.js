@@ -68,5 +68,6 @@ app.controller('ReviewsController', ['$scope', function($scope){
 	$scope.addReview = function(list) {
 		list.push($scope.review);
 		list.review = {};
+		//$scope.reviewForm.$setPristine();
 	};
 }]);

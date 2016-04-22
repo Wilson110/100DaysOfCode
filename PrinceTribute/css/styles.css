@@ -7,3 +7,23 @@ html {
 	height: 100%;
 	width: 100%;
 }
+header {
+	margin: 15% 10%;
+	text-align: right;
+	color: #fff;
+	font-family: Helvetica;
+}
+#buttonContainer {
+	margin-right: 10%;
+	text-align: right;
+}
+button {
+	background-color: #A35A92;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 10px;
+}
+button:hover {
+	background-color: #fff;
+	color: #A35A92;
+}

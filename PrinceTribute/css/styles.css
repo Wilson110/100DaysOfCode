@@ -12,7 +12,9 @@ html {
 	text-align: right;
 	color: #fff;
 }
-
+#quoteContainer {
+	height: 200px;
+}
 button {
 	background-color: #A35A92;
 	color: #fff;

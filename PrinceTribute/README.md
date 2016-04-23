@@ -8,6 +8,12 @@ The quote generator is a simple splash page.  Users press a button and quote by 
 
 ## Specs
 * April 21, 2016 - We lost Prince. I began the project.
+* April 22, 2016 - Project finished
 
 ## Contribute
 Once the data library is built, users will be more than welcome to contribute by adding a quote to object array. Stay tuned for updates!
+
+Update: Project finished. Here's how to contribute:
+* Clone the repo
+* Add your favorite quote to the object array in the script.js file using key-value syntax
+* Submit pull request to merge

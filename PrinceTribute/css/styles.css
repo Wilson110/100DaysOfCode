@@ -8,12 +8,28 @@ html {
 	width: 100%;
 }
 #container {
-	margin: 15% 10%;
+	margin: 200px 80px;
 	text-align: right;
 	color: #fff;
 }
 #quoteContainer {
-	height: 200px;
+	height: 100px;
+}
+.clearfix {
+	clear: both;
+}
+h1, #princeQuote {
+	font-family: Satisfy, cursive;
+}
+h1 {
+	font-size: 3.125em;
+}
+#quoteContainer p {
+	font-family: "Open Sans", "Lucida Sans Unicode";
+}
+.sub-heading {
+	font-family: "Open Sans", "Lucida Sans Unicode";
+	font-size: 1.250em;
 }
 button {
 	background-color: #A35A92;

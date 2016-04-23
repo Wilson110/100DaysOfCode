@@ -7,21 +7,12 @@ html {
 	height: 100%;
 	width: 100%;
 }
-header {
+#container {
 	margin: 15% 10%;
 	text-align: right;
 	color: #fff;
-	font-family: Helvetica;
 }
-#quoteContainer {
-	margin-right: 10%;
-	text-align: right;
-	color: #fff;
-}
-#buttonContainer {
-	margin-right: 10%;
-	text-align: right;
-}
+
 button {
 	background-color: #A35A92;
 	color: #fff;

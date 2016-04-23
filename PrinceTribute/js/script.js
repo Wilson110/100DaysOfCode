@@ -1,40 +1,44 @@
 $(document).ready(function(){
 	var princeWisdom = [
 		{
-			quote: "",
-			source: ""
+			quote: "Everyone has their own experience. That's why we are here, to go through our experience, to learn, to go down those paths and eventually you may have gone down so many paths and learned so much that you don't have to come back again.",
+			source: "The Guardian, 2011"
 		},
 		{
-			quote: "",
-			source: ""
+			quote: "There are no accidents. And if there are, it's up to us to look at them as something else. And that bravery is what creates new flowers.",
+			source: "Details Magazine, 1991"
 		},
 		{
-			quote: "",
-			source: ""
+			quote: "Cool means being able to hang with yourself. All you have to ask yourself is 'Is there anybody I’m afraid of? Is there anybody who if I walked into a room and saw, I’d get nervous?' If not, then you're cool.",
+			source: "Rolling Stone, 1990"
 		},
 		{
-			quote: "",
-			source: ""
+			quote: "I'm very sincere in my beliefs. I pray every night, and I don't ask for much. I just say 'thank you'.",
+			source: "VH1, 1988"
 		},
 		{
-			quote: "",
-			source: ""
+			quote: "As human beings we suffer from an innate tendancy to jump to conclusions; to judge people too quickly and to pronounce them failures or heroes without due consideration of the actual facts and ideals of the period.",
+			source: "Unsourced"
 		},
 		{
-			quote: "",
-			source: ""
+			quote: "There is something that happens when you get emancipated. You approach life differently. You eat differently. You respect yourself more. You respect the gift you have been given."
+			source: "Chris Rock Show, 1997"
 		},
 		{
-			quote: "",
-			source: ""
+			quote: "All seven and we'll watch them fall, They stand in the way of love, and we will smoke them all, with our intellect and a savior-faire, no one in the whole universe will ever compare.",
+			source: "'7' lyrics, Symbol album"
 		},
 		{
-			quote: "Spirits come and spirits go. Some don't wait until after the show. Don't have to say I miss you, I think you know",
-			source: ""
+			quote: "I have written a song that says: If you ever lose someone dear to you, never say the words, 'They're gone,' and they'll come back.",
+			source: "Interview Magazine, 2014"
 		},
 		{
-			quote: "",
-			source: ""
+			quote: "Spirits come and spirits go. Some stick around for the aftershow. Don't have to say I miss you, Cause I think you already know",
+			source: "'Comeback' lyrics, The Truth album"
+		},
+		{
+			quote: "I am transformed.",
+			source: "April 19, 2016, Twitter"
 		}
 	];
 	/* When button with id 'quoteButton' is clicked, function event is 

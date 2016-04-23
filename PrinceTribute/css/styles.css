@@ -13,6 +13,11 @@ header {
 	color: #fff;
 	font-family: Helvetica;
 }
+#quoteContainer {
+	margin-right: 10%;
+	text-align: right;
+	color: #fff;
+}
 #buttonContainer {
 	margin-right: 10%;
 	text-align: right;

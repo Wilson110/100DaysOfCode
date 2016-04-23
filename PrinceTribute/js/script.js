@@ -21,7 +21,7 @@ $(document).ready(function(){
 			source: "Unsourced"
 		},
 		{
-			quote: "There is something that happens when you get emancipated. You approach life differently. You eat differently. You respect yourself more. You respect the gift you have been given."
+			quote: "There is something that happens when you get emancipated. You approach life differently. You eat differently. You respect yourself more. You respect the gift you have been given.",
 			source: "Chris Rock Show, 1997"
 		},
 		{

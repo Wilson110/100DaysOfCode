@@ -41,7 +41,7 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | [day 84](http://www.freecodecamp.com/Wilcott321)  | [day 85](https://github.com/Wilcott321/100DaysOfCode/tree/master/IntroJQ) | [day 86](https://github.com/Wilcott321/100DaysOfCode/tree/master/IntroJQ) | [day 87](https://github.com/Wilcott321/100DaysOfCode/tree/master/BookApp) | [day 88](https://github.com/Wilcott321/100DaysOfCode/tree/master/BookApp) | [day 89](https://www.freecodecamp.com/Wilcott321) |
 
-| [day 90](https://github.com/Wilcott321/100DaysOfCode/tree/master/BookApp)  | [day 91](https://www.freecodecamp.com/Wilcott321) | [day 92](https://github.com/Wilcott321/100DaysOfCode/tree/master/PrinceTribute) | [day 93](https://github.com/Wilcott321/100DaysOfCode/tree/master/PrinceTribute) | [day 94](http://www.freecodecamp.com/Wilcott321) | day 95 |
+| [day 90](https://github.com/Wilcott321/100DaysOfCode/tree/master/BookApp)  | [day 91](https://www.freecodecamp.com/Wilcott321) | [day 92](https://github.com/Wilcott321/100DaysOfCode/tree/master/PrinceTribute) | [day 93](https://github.com/Wilcott321/100DaysOfCode/tree/master/PrinceTribute) | [day 94](http://www.freecodecamp.com/Wilcott321) | [day 95](http://github.com/Wilcott321/100DaysOfCode/tree/master/BookApp) |
 
 | day 96  | day 97 | day 98 | day 99 | day 100 | bonus |
 

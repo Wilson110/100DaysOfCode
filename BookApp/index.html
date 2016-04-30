@@ -19,8 +19,19 @@
 </head>
 
 <body ng-app="myApp">
+  <div class="header">
+    <div class="container">
+      <h1>Book App</h1>
+    </div>
+  </div>
+
+  <div class="main" ng-controller="MainController">
+    <div class="container">
 	
-  <div ng-view></div>
+      <div ng-view></div>
+
+    </div>
+  </div>
 
   <div class="footer">
     <div class="container">

@@ -15,7 +15,7 @@
 
 	<!-- AngularJS CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
 </head>
 
 <body ng-app="myApp">
@@ -25,21 +25,11 @@
     </div>
   </div>
 
-  <div class="main" ng-controller="MainController">
-    <div class="container">
-	
-      <div ng-view></div>
+  <div ui-view="header"></div>
 
-    </div>
-  </div>
-
-  <div class="footer">
-    <div class="container">
-        <h2>Available for iPhone and Android.</h2>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/app-store.png" width="120px" />
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/google-play.png" width="110px" />
-    </div>
-  </div>
+  <div ui-view="content"></div>
+    
+  <div ui-view="footer"></div>
 
     <!--- AngularJS Scripts ---->
 	<script src="js/app.js"></script>

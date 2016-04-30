@@ -3,6 +3,7 @@ app.controller('MainController', ['$scope', function($scope){
 	$scope.promo = "Read, Review, and Share";
 	$scope.products = [
 		{
+			id: 0,
 			name: "The 4-Hour Body",
 			price: 39,
 			pubdate: new Date('2014', '12', '14'),
@@ -11,6 +12,7 @@ app.controller('MainController', ['$scope', function($scope){
 			dislikes: 0
 		},
 		{
+			id: 1,
 			name: "Scope & Closures",
 			price: 11,
 			pubdate: new Date('2008', '05', '01'),
@@ -19,6 +21,7 @@ app.controller('MainController', ['$scope', function($scope){
 			dislikes: 0
 		},
 		{
+			id: 2,
 			name: "The Hard Things About Hard Things",
 			price: 21,
 			pubdate: new Date('2014', '03', '04'),
@@ -27,6 +30,7 @@ app.controller('MainController', ['$scope', function($scope){
 			dislikes: 0
 		},
 		{
+			id: 3,
 			name: "HTML and CSS",
 			price: 19,
 			pubdate: new Date('2011', '10', '25'),
@@ -35,6 +39,7 @@ app.controller('MainController', ['$scope', function($scope){
 			dislikes: 0
 		},
 		{
+			id: 4,
 			name: "The Paleo Manifesto",
 			price: 12,
 			pubdate: new Date('2014', '05', '20'),
@@ -43,6 +48,7 @@ app.controller('MainController', ['$scope', function($scope){
 			dislikes: 0
 		},
 		{
+			id: 5,
 			name: "Zero To One",
 			price: 16,
 			pubdate: new Date('2014', '09', '16'),

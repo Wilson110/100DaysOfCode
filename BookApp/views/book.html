@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-sm-12">
+    <img ng-src="{{ product.cover }}">
+    <p class="title">{{product.name }} </p>
+    <p class="price"> {{product.price | currency}} </p>
+    <p class="date">{{product.pubdate | date }} </p>
+    <div class="rating">
+      <p class="likes" ng-click="plusOne($index)">+ {{product.likes}}</p>
+      <p class="dislikes">- {{product.dislikes}}</p>
+    </div>
+  </div>
+</div>

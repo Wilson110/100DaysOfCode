@@ -19,40 +19,16 @@
 </head>
 
 <body ng-app="myApp">
-	<div class="header">
-		<div class="container">
-			<h1>Book App</h1>
-		</div>
-	</div>
-	<div class="main" ng-controller="MainController">
-      <div class="container">
+	
+  <div ng-view></div>
 
-        <h1>{{ title }}</h1>
-        <h2>{{ promo }}</h2>
-
-        <div ng-repeat="product in products" class="col-md-6">
-          <div class="thumbnail">
-            <img ng-src="{{ product.cover }}">
-            <p class="title">{{product.name }} </p>
-            <p class="price"> {{product.price | currency}} </p>
-            <p class="date">{{product.pubdate | date }} </p>
-            <div class="rating">
-              <p class="likes" ng-click="plusOne($index)">+ {{product.likes}}</p>
-              <p class="dislikes">- {{product.dislikes}}</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="container">
+  <div class="footer">
+    <div class="container">
         <h2>Available for iPhone and Android.</h2>
         <img src="https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/app-store.png" width="120px" />
         <img src="https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/google-play.png" width="110px" />
-      </div>
     </div>
+  </div>
 
     <!--- AngularJS Scripts ---->
 	<script src="js/app.js"></script>

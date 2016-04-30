@@ -1,6 +1,9 @@
-app.controller('MainController', ['$scope', function($scope){
+app.controller('IndexController', ['$scope', function($scope){
 	$scope.title = "Book Ends";
 	$scope.promo = "Read, Review, and Share";
+}]);
+
+app.controller('MainController', ['$scope', '$stateParams', function($scope, $stateParams){
 	$scope.products = [
 		{
 			id: 0,
@@ -62,7 +65,8 @@ app.controller('MainController', ['$scope', function($scope){
 	};
 	$scope.minusOne = function(index) {
 		$scope.products[index].dislikes += 1;
-	}
+	};
+	//$scope.book_id = $scope.products.id;
 }]);
 
 app.controller('ListController', ['$scope', function($scope){

@@ -45,6 +45,9 @@ I will link what I've done for the day below. You may wish to clone this repo an
 
 | day 96  | day 97 | day 98 | day 99 | day 100 | bonus |
 
+## Update
+On April 26, 2016 I decided to end this challenge. I skipped over 11 days and could not find the time to code everyday for a challenge that is not work-related. Blog post on my experience coming soon.
+
 ## Contributors
 Me, /Wilcott321 
 * Project [repo link](http://github.com/Wilcott321/100DaysOfCode), 

@@ -4,4 +4,4 @@ I received a great discount on any [Udemy](http://udemy.com) course and I decide
 ### Challenges
 * Challenge One: Build a site with no CSS using basic html elements. Finished! View [here](https://github.com/Wilcott321/100DaysOfCode/blob/master/CompleteWeb/chapter_one/challenge_one.html)
 * Challenge Two: Create a clone of the BBC News Tech page. In progress as of 3/28/16
-* Challenge Two Finished! View [here](https://github.com/Wilcott321/100DaysOfCode/master/CompleteWeb/chapter_two/bbc.html)
+* Challenge Two Finished! View [here](https://github.com/Wilcott321/100DaysOfCode/blob/master/CompleteWeb/chapter_two/bbc.html)
